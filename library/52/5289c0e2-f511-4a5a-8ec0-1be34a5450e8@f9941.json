@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ikunbutton",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 54,
+      "height": 34
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 54,
+      "height": 34
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "5289c0e2-f511-4a5a-8ec0-1be34a5450e8@6c48a",
+    "packable": true
+  }
+}

@@ -1,6 +1,54 @@
 {
   "2c84e0b0-7e15-493b-bbb9-6dc8eaa910da": {
-    "url": "db://assets/scene.scene",
+    "url": "db://assets/scences/scene.scene",
+    "value": {}
+  },
+  "8d8fc5f1-40e3-46f3-95d3-f0b817105a30": {
+    "url": "db://assets/img",
+    "value": {}
+  },
+  "476dd3c2-a266-4831-8e7b-3d9e1e066fd8": {
+    "url": "db://assets/scences",
+    "value": {}
+  },
+  "35fbf88d-beaf-4bca-972f-7f622aec2636": {
+    "url": "db://assets/img/ikunbg.png",
+    "value": {}
+  },
+  "5289c0e2-f511-4a5a-8ec0-1be34a5450e8": {
+    "url": "db://assets/img/ikunbutton.png",
+    "value": {}
+  },
+  "1812c9d0-7696-4488-9416-045fbee8a36c": {
+    "url": "db://assets/img/kunkun.png",
+    "value": {}
+  },
+  "bb97aa65-157e-46de-b400-af76dd8d9ab3": {
+    "url": "db://assets/img/biankuan.png",
+    "value": {}
+  },
+  "a0c10997-3ace-46ba-b37c-9433edaa0cd2": {
+    "url": "db://assets/img/bianhuan.png",
+    "value": {}
+  },
+  "780588fe-c60c-4e23-83ca-88acb83b224c": {
+    "url": "db://assets/img/biankuang.png",
+    "value": {}
+  },
+  "9a0af4c7-0677-4216-9fb3-b64c1cdd83a1": {
+    "url": "db://assets/img/duihua.png",
+    "value": {}
+  },
+  "738bab9e-aa08-420a-96db-d958a285bbcb": {
+    "url": "db://assets/img/topbackground.png",
+    "value": {}
+  },
+  "a875fe64-0b7b-4c95-b084-1f7ce335ae8e": {
+    "url": "db://assets/img/beij.png",
+    "value": {}
+  },
+  "9a554f08-9b8b-4120-aa64-3883f15bdc22": {
+    "url": "db://assets/img/downgg.png",
     "value": {}
   }
 }

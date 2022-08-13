@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "duihua",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 426,
+      "height": 72
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 426,
+      "height": 72
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "9a0af4c7-0677-4216-9fb3-b64c1cdd83a1@6c48a",
+    "packable": true
+  }
+}

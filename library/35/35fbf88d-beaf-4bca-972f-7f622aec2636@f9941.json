@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ikunbg",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 1,
+      "width": 607,
+      "height": 378
+    },
+    "offset": {
+      "x": 0.5,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 608,
+      "height": 379
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "35fbf88d-beaf-4bca-972f-7f622aec2636@6c48a",
+    "packable": true
+  }
+}

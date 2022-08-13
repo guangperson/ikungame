@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "downgg",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1728,
+      "height": 1080
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 1728,
+      "height": 1080
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "9a554f08-9b8b-4120-aa64-3883f15bdc22@6c48a",
+    "packable": true
+  }
+}

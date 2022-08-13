@@ -72,3 +72,99 @@
 2022-08-13T07:44:24.222Z - info: [Scene] Forward render pipeline initialized.
 2022-08-13T07:44:38.691Z - log: [Im-plugin] No online info of im-plugin.
 2022-08-13T07:44:40.973Z - warn: Metrics: no valid info
+2022-08-13T08:29:07.498Z - log: [Package] menu@1.0.0 enable
+2022-08-13T08:29:07.500Z - log: [Package] profile@1.0.0 enable
+2022-08-13T08:29:07.507Z - log: [Package] project@1.0.2 enable
+2022-08-13T08:29:07.512Z - log: [Package] messages@1.0.0 enable
+2022-08-13T08:29:07.515Z - log: [Package] program@1.0.0 enable
+2022-08-13T08:29:07.521Z - log: [Package] tester@1.0.0 enable
+2022-08-13T08:29:07.526Z - log: [Package] preferences@1.0.0 enable
+2022-08-13T08:29:08.036Z - log: Setup mods mgr.: 273.507ms
+2022-08-13T08:29:08.037Z - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle-2d,physics-2d-box2d,profiler,skeletal-animation,spine,tiled-map,tween,ui,video,webview)
+2022-08-13T08:29:08.042Z - verbose: [Engine] QuickCompile engine (468ms)
+2022-08-13T08:29:08.045Z - log: [Package] engine@1.0.6 enable
+2022-08-13T08:29:08.935Z - log: [Package] programming@1.0.0 enable
+2022-08-13T08:29:09.272Z - log: [Package] device@1.0.1 enable
+2022-08-13T08:29:09.308Z - log: [Package] ui-kit@1.0.1 enable
+2022-08-13T08:29:09.336Z - log: [Package] engine-extends@1.0.0 enable
+2022-08-13T08:29:09.407Z - log: [Package] asset-db@1.0.0 enable
+2022-08-13T08:29:09.446Z - log: [Package] scene@1.0.0 enable
+2022-08-13T08:29:09.581Z - log: [Package] server@1.0.0 enable
+2022-08-13T08:29:09.610Z - log: [Package] utils@1.0.0 enable
+2022-08-13T08:29:12.556Z - log: [Package] preview@1.0.1 enable
+2022-08-13T08:29:12.584Z - log: [Package] animator@1.0.0 enable
+2022-08-13T08:29:13.547Z - log: [Package] builder@1.3.2 enable
+2022-08-13T08:29:13.579Z - log: [Package] shortcuts@1.0.1 enable
+2022-08-13T08:29:13.609Z - log: [Package] animation-graph@1.0.0 enable
+2022-08-13T08:29:13.632Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2022-08-13T08:29:13.656Z - log: [Package] channel-upload-tools@1.0.0 enable
+2022-08-13T08:29:13.695Z - log: [Package] about@1.0.0 enable
+2022-08-13T08:29:13.729Z - log: [Package] assets@1.0.0 enable
+2022-08-13T08:29:13.759Z - log: [Package] console@1.0.0 enable
+2022-08-13T08:29:13.914Z - log: [Package] extension@3.0.16 enable
+2022-08-13T08:29:13.951Z - log: [Package] hierarchy@1.0.0 enable
+2022-08-13T08:29:13.983Z - log: [Package] inspector@1.0.0 enable
+2022-08-13T08:29:14.014Z - log: [Package] lightmap@1.0.4 enable
+2022-08-13T08:29:14.047Z - log: [Package] node-library@1.0.1 enable
+2022-08-13T08:29:14.084Z - log: [Package] package-asset@1.0.0 enable
+2022-08-13T08:29:14.125Z - log: [Package] process@1.0.0 enable
+2022-08-13T08:29:14.158Z - log: [Package] reference-image@1.0.0 enable
+2022-08-13T08:29:14.174Z - verbose: [AssetDB] Require engine code (1070ms)
+2022-08-13T08:29:14.180Z - log: [Package] alipay-mini-game@1.0.0 enable
+2022-08-13T08:29:14.205Z - log: [Package] android@1.0.0 enable
+2022-08-13T08:29:14.240Z - log: [Package] baidu-mini-game@1.0.0 enable
+2022-08-13T08:29:14.272Z - log: [Package] bytedance-mini-game@1.0.1 enable
+2022-08-13T08:29:14.304Z - log: [Package] cocos-play@1.0.0 enable
+2022-08-13T08:29:14.335Z - log: [Package] huawei-agc@1.0.0 enable
+2022-08-13T08:29:14.367Z - log: [Package] huawei-quick-game@1.0.0 enable
+2022-08-13T08:29:14.400Z - log: [Package] ios@1.0.0 enable
+2022-08-13T08:29:14.430Z - log: [Package] ios-app-clip@1.0.0 enable
+2022-08-13T08:29:14.461Z - log: [Package] link-sure@1.0.0 enable
+2022-08-13T08:29:14.493Z - log: [Package] linux@1.0.0 enable
+2022-08-13T08:29:14.525Z - log: [Package] mac@1.0.0 enable
+2022-08-13T08:29:14.623Z - log: [Package] native@1.0.0 enable
+2022-08-13T08:29:14.652Z - log: [Package] ohos@1.0.0 enable
+2022-08-13T08:29:14.684Z - log: [Package] open-harmonyos@1.0.0 enable
+2022-08-13T08:29:14.716Z - log: [Package] oppo-mini-game@1.0.0 enable
+2022-08-13T08:29:14.740Z - log: [Package] qtt@1.0.0 enable
+2022-08-13T08:29:14.778Z - log: [Package] vivo-mini-game@1.0.0 enable
+2022-08-13T08:29:14.821Z - log: [Package] web-desktop@1.0.0 enable
+2022-08-13T08:29:14.855Z - log: [Package] web-mobile@1.0.0 enable
+2022-08-13T08:29:14.899Z - log: [Package] wechatgame@1.0.1 enable
+2022-08-13T08:29:14.935Z - log: [Package] windows@1.0.0 enable
+2022-08-13T08:29:14.967Z - log: [Package] xiaomi-quick-game@1.0.0 enable
+2022-08-13T08:29:15.213Z - log: [Package] cocos-service@3.0.3 enable
+2022-08-13T08:29:15.264Z - log: [Package] importer@1.0.0 enable
+2022-08-13T08:29:15.525Z - log: [Im-plugin] Check im-plugin version.
+2022-08-13T08:29:15.539Z - log: [Package] im-plugin@3.0.8 enable
+2022-08-13T08:29:19.067Z - verbose: [Scene] Require engine code (0ms)
+2022-08-13T08:29:19.067Z - verbose: [Scene] Startup engine (1ms)
+2022-08-13T08:29:19.088Z - log: [Scene] Cocos Creator v3.5.2
+2022-08-13T08:29:19.574Z - verbose: [Scene] Open engine (506ms)
+2022-08-13T08:29:19.574Z - verbose: [Scene] Configure engine (1ms)
+2022-08-13T08:29:19.147Z - info: [Scene] Forward render pipeline initialized.
+2022-08-13T08:29:40.405Z - log: [Im-plugin] No online info of im-plugin.
+2022-08-13T08:49:55.277Z - error: [Window] [Vue warn]: Error in v-on handler: "TypeError: Cannot read property 'value' of undefined"
+
+found in
+
+---> <TreeNode>
+       <Tree>
+         <Root>
+2022-08-13T08:49:55.277Z - error: [Window] Cannot read property 'value' of undefinedTypeError: Cannot read property 'value' of undefined
+    at VueComponent.addChange (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\modules\editor-extensions\extensions\hierarchy\dist\components\tree-node.ccc:1:3292)
+    at input (eval at createFunction (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:11628:14), <anonymous>:3:3005)
+    at invokeWithErrorHandling (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:1863:28)
+    at HTMLInputElement.invoker (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:2188:16)
+    at HTMLInputElement.<anonymous> (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:7541:27)
+2022-08-13T09:25:34.491Z - error: [Scene] Can't add component 'cc.Label' to Sprite because it conflicts with the existing 'cc.Sprite' derived component.Error: Can't add component 'cc.Label' to Sprite because it conflicts with the existing 'cc.Sprite' derived component.
+    at Node._checkMultipleComp (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:150367:17)
+    at Node.addComponent (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:151510:12)
+    at NodeManager.createComponent (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\builtin\scene\dist\script\3d\manager\node\index.ccc:1:9561)
+    at GeneralSceneFacade.createComponent (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:9696)
+    at SceneFacadeManager.createComponent (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:16710)
+    at step (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc.ccc:1:704)
+    at D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc.ccc:1:1545
+    at new Promise (<anonymous>)
+    at D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\builtin\scene\dist\script\3d\manager\ipc.ccc:1:1482
+    at EventEmitter.<anonymous> (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\builtin\scene\dist\script\public\ipc\webview.ccc:1:767)

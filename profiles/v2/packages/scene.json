@@ -53,8 +53,8 @@
     },
     "2c84e0b0-7e15-493b-bbb9-6dc8eaa910da": {
       "position": {
-        "x": 480,
-        "y": 320,
+        "x": 478,
+        "y": 312,
         "z": 5000
       },
       "rotation": {
@@ -72,5 +72,18 @@
   },
   "camera-uuids": [
     "2c84e0b0-7e15-493b-bbb9-6dc8eaa910da"
-  ]
+  ],
+  "float-window": {
+    "position": {
+      "cc": {
+        "Camera": {
+          "dock": false,
+          "top": null,
+          "bottom": 10,
+          "left": null,
+          "right": 10
+        }
+      }
+    }
+  }
 }

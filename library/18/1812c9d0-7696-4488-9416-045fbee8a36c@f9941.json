@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kunkun",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 430,
+      "height": 500
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 430,
+      "height": 500
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "1812c9d0-7696-4488-9416-045fbee8a36c@6c48a",
+    "packable": true
+  }
+}

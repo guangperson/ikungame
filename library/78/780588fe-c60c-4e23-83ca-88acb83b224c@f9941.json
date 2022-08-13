@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "biankuang",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 90,
+      "height": 83
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 90,
+      "height": 83
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "780588fe-c60c-4e23-83ca-88acb83b224c@6c48a",
+    "packable": true
+  }
+}
