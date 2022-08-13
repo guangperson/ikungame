@@ -4,7 +4,7 @@
     "value": {}
   },
   "8d8fc5f1-40e3-46f3-95d3-f0b817105a30": {
-    "url": "db://assets/img",
+    "url": "db://assets/assetsResours/img",
     "value": {}
   },
   "476dd3c2-a266-4831-8e7b-3d9e1e066fd8": {
@@ -12,15 +12,15 @@
     "value": {}
   },
   "35fbf88d-beaf-4bca-972f-7f622aec2636": {
-    "url": "db://assets/img/ikunbg.png",
+    "url": "db://assets/assetsResours/img/ikunbg.png",
     "value": {}
   },
   "5289c0e2-f511-4a5a-8ec0-1be34a5450e8": {
-    "url": "db://assets/img/ikunbutton.png",
+    "url": "db://assets/assetsResours/img/ikunbutton.png",
     "value": {}
   },
   "1812c9d0-7696-4488-9416-045fbee8a36c": {
-    "url": "db://assets/img/kunkun.png",
+    "url": "db://assets/assetsResours/img/kunkun.png",
     "value": {}
   },
   "bb97aa65-157e-46de-b400-af76dd8d9ab3": {
@@ -28,27 +28,55 @@
     "value": {}
   },
   "a0c10997-3ace-46ba-b37c-9433edaa0cd2": {
-    "url": "db://assets/img/bianhuan.png",
+    "url": "db://assets/assetsResours/img/bianhuan.png",
     "value": {}
   },
   "780588fe-c60c-4e23-83ca-88acb83b224c": {
-    "url": "db://assets/img/biankuang.png",
+    "url": "db://assets/assetsResours/img/biankuang.png",
     "value": {}
   },
   "9a0af4c7-0677-4216-9fb3-b64c1cdd83a1": {
-    "url": "db://assets/img/duihua.png",
+    "url": "db://assets/assetsResours/img/duihua.png",
     "value": {}
   },
   "738bab9e-aa08-420a-96db-d958a285bbcb": {
-    "url": "db://assets/img/topbackground.png",
+    "url": "db://assets/assetsResours/img/topbackground.png",
     "value": {}
   },
   "a875fe64-0b7b-4c95-b084-1f7ce335ae8e": {
-    "url": "db://assets/img/beij.png",
+    "url": "db://assets/assetsResours/img/beij.png",
     "value": {}
   },
   "9a554f08-9b8b-4120-aa64-3883f15bdc22": {
-    "url": "db://assets/img/downgg.png",
+    "url": "db://assets/assetsResours/img/downgg.png",
+    "value": {}
+  },
+  "4f288afd-0a11-451a-932e-fad324a9be3c": {
+    "url": "db://assets/assetsResours/music",
+    "value": {}
+  },
+  "b3128c3f-5153-4ea3-999e-c443ca41f942": {
+    "url": "db://assets/script",
+    "value": {}
+  },
+  "e3179c8d-697e-41e4-8a0e-b447d9092743": {
+    "url": "db://assets/script/main.ts",
+    "value": {}
+  },
+  "d75fe585-c18a-474b-afa7-414179e59427": {
+    "url": "db://assets/assetsResours",
+    "value": {}
+  },
+  "064eddda-3632-4aef-8ea4-644bc95c4c66": {
+    "url": "db://assets/assetsResours/music/jitaimei_1.mp4",
+    "value": {}
+  },
+  "c0b0c817-6b5d-42e3-a0ec-362dab581694": {
+    "url": "db://assets/assetsResours/music/jinitaimei_1.mp4",
+    "value": {}
+  },
+  "8c8fc6be-d779-4fb4-a006-d4bf10a29639": {
+    "url": "db://assets/assetsResours/music/jinitaimei_1.mp3",
     "value": {}
   }
 }

@@ -136,15 +136,36 @@
           "messages": []
         }
       },
-      "timestamp": 1660388332188
+      "timestamp": 1660402972288
     },
-    "d0b5187750a9b5b49aadedeaf74328dc3edecc1c": {
-      "imports": {},
-      "timestamp": 1660388332212
+    "6b8f85b7feaee65395ce6b5e8080983e7f56d534": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "770f4a2509149d64a7762af1ae56278d4a5edf49"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1660407141856
+    },
+    "770f4a2509149d64a7762af1ae56278d4a5edf49": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1660407141934
     }
   },
   "entries": {
     "cce:/internal/x/cc": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e",
-    "cce:/internal/x/prerequisite-imports": "d0b5187750a9b5b49aadedeaf74328dc3edecc1c"
+    "cce:/internal/x/prerequisite-imports": "6b8f85b7feaee65395ce6b5e8080983e7f56d534",
+    "file:///D:/game/iKunGame/assets/script/main.ts": "770f4a2509149d64a7762af1ae56278d4a5edf49"
   }
 }

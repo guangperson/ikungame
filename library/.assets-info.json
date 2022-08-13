@@ -1,12 +1,4 @@
 {
-  "D:\\game\\iKunGame\\assets\\img.meta": {
-    "time": 1660380442302.981
-  },
-  "D:\\game\\iKunGame\\assets\\img": {
-    "time": 1660388338031.5266,
-    "uuid": "8d8fc5f1-40e3-46f3-95d3-f0b817105a30",
-    "missing": false
-  },
   "D:\\game\\iKunGame\\assets\\scences.meta": {
     "time": 1660380454329.5637
   },
@@ -19,80 +11,128 @@
     "time": 1660376679628.7976
   },
   "D:\\game\\iKunGame\\assets\\scences\\scene.scene": {
-    "time": 1660383723175.0095,
+    "time": 1660406974334.2527,
     "uuid": "2c84e0b0-7e15-493b-bbb9-6dc8eaa910da",
     "missing": false
   },
-  "D:\\game\\iKunGame\\assets\\img\\ikunbg.png.meta": {
-    "time": 1660380491125.2395
+  "D:\\game\\iKunGame\\assets\\script.meta": {
+    "time": 1660401970720.237
   },
-  "D:\\game\\iKunGame\\assets\\img\\ikunbg.png": {
-    "time": 1660380421634.2808,
-    "uuid": "35fbf88d-beaf-4bca-972f-7f622aec2636",
+  "D:\\game\\iKunGame\\assets\\script": {
+    "time": 1660402066639.6003,
+    "uuid": "b3128c3f-5153-4ea3-999e-c443ca41f942",
     "missing": false
   },
-  "D:\\game\\iKunGame\\assets\\img\\ikunbutton.png.meta": {
-    "time": 1660380562044.6775
+  "D:\\game\\iKunGame\\assets\\script\\main.ts.meta": {
+    "time": 1660402066643.5898
   },
-  "D:\\game\\iKunGame\\assets\\img\\ikunbutton.png": {
-    "time": 1660380546371.3718,
-    "uuid": "5289c0e2-f511-4a5a-8ec0-1be34a5450e8",
+  "D:\\game\\iKunGame\\assets\\script\\main.ts": {
+    "time": 1660407139742.387,
+    "uuid": "e3179c8d-697e-41e4-8a0e-b447d9092743",
     "missing": false
   },
-  "D:\\game\\iKunGame\\assets\\img\\kunkun.png.meta": {
-    "time": 1660381099922.7976
+  "D:\\game\\iKunGame\\assets\\assetsResours.meta": {
+    "time": 1660404658863.1643
   },
-  "D:\\game\\iKunGame\\assets\\img\\kunkun.png": {
-    "time": 1660381074217.7065,
-    "uuid": "1812c9d0-7696-4488-9416-045fbee8a36c",
+  "D:\\game\\iKunGame\\assets\\assetsResours": {
+    "time": 1660402931281.6938,
+    "uuid": "d75fe585-c18a-474b-afa7-414179e59427",
     "missing": false
   },
-  "D:\\game\\iKunGame\\assets\\img\\bianhuan.png.meta": {
-    "time": 1660381700965.243
+  "D:\\game\\iKunGame\\assets\\assetsResours\\music.meta": {
+    "time": 1660401952908.8923
   },
-  "D:\\game\\iKunGame\\assets\\img\\bianhuan.png": {
-    "time": 1660381686990.7727,
-    "uuid": "a0c10997-3ace-46ba-b37c-9433edaa0cd2",
+  "D:\\game\\iKunGame\\assets\\assetsResours\\music": {
+    "time": 1660406743175.484,
+    "uuid": "4f288afd-0a11-451a-932e-fad324a9be3c",
     "missing": false
   },
-  "D:\\game\\iKunGame\\assets\\img\\biankuang.png.meta": {
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img.meta": {
+    "time": 1660380442302.981
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img": {
+    "time": 1660388338031.5266,
+    "uuid": "8d8fc5f1-40e3-46f3-95d3-f0b817105a30",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\biankuang.png.meta": {
     "time": 1660382280493.0183
   },
-  "D:\\game\\iKunGame\\assets\\img\\biankuang.png": {
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\biankuang.png": {
     "time": 1660382264639.3743,
     "uuid": "780588fe-c60c-4e23-83ca-88acb83b224c",
     "missing": false
   },
-  "D:\\game\\iKunGame\\assets\\img\\duihua.png.meta": {
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\bianhuan.png.meta": {
+    "time": 1660381700965.243
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\bianhuan.png": {
+    "time": 1660381686990.7727,
+    "uuid": "a0c10997-3ace-46ba-b37c-9433edaa0cd2",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\duihua.png.meta": {
     "time": 1660382336270.0364
   },
-  "D:\\game\\iKunGame\\assets\\img\\duihua.png": {
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\duihua.png": {
     "time": 1660383245551.578,
     "uuid": "9a0af4c7-0677-4216-9fb3-b64c1cdd83a1",
     "missing": false
   },
-  "D:\\game\\iKunGame\\assets\\img\\topbackground.png.meta": {
-    "time": 1660383549935.4138
-  },
-  "D:\\game\\iKunGame\\assets\\img\\topbackground.png": {
-    "time": 1660383544594.539,
-    "uuid": "738bab9e-aa08-420a-96db-d958a285bbcb",
-    "missing": false
-  },
-  "D:\\game\\iKunGame\\assets\\img\\beij.png.meta": {
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\beij.png.meta": {
     "time": 1660387999796.7156
   },
-  "D:\\game\\iKunGame\\assets\\img\\beij.png": {
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\beij.png": {
     "time": 1660387992856.105,
     "uuid": "a875fe64-0b7b-4c95-b084-1f7ce335ae8e",
     "missing": false
   },
-  "D:\\game\\iKunGame\\assets\\img\\downgg.png.meta": {
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\ikunbutton.png.meta": {
+    "time": 1660380562044.6775
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\ikunbutton.png": {
+    "time": 1660380546371.3718,
+    "uuid": "5289c0e2-f511-4a5a-8ec0-1be34a5450e8",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\ikunbg.png.meta": {
+    "time": 1660380491125.2395
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\ikunbg.png": {
+    "time": 1660380421634.2808,
+    "uuid": "35fbf88d-beaf-4bca-972f-7f622aec2636",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\topbackground.png.meta": {
+    "time": 1660383549935.4138
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\topbackground.png": {
+    "time": 1660383544594.539,
+    "uuid": "738bab9e-aa08-420a-96db-d958a285bbcb",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\kunkun.png.meta": {
+    "time": 1660381099922.7976
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\kunkun.png": {
+    "time": 1660381074217.7065,
+    "uuid": "1812c9d0-7696-4488-9416-045fbee8a36c",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\downgg.png.meta": {
     "time": 1660388338080.396
   },
-  "D:\\game\\iKunGame\\assets\\img\\downgg.png": {
+  "D:\\game\\iKunGame\\assets\\assetsResours\\img\\downgg.png": {
     "time": 1660388286329.3064,
     "uuid": "9a554f08-9b8b-4120-aa64-3883f15bdc22",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\music\\jinitaimei_1.mp3.meta": {
+    "time": 1660406743196.429
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\music\\jinitaimei_1.mp3": {
+    "time": 1660406321140.464,
+    "uuid": "8c8fc6be-d779-4fb4-a006-d4bf10a29639",
     "missing": false
   }
 }

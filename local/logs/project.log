@@ -240,3 +240,233 @@ found in
 2022-08-13T10:58:54.074Z - verbose: [Scene] Configure engine (0ms)
 2022-08-13T10:58:53.646Z - info: [Scene] Forward render pipeline initialized.
 2022-08-13T10:59:15.319Z - log: [Im-plugin] No online info of im-plugin.
+2022-08-13T11:26:45.552Z - warn: Metrics: no valid info
+2022-08-13T14:34:43.690Z - log: [Package] menu@1.0.0 enable
+2022-08-13T14:34:43.693Z - log: [Package] profile@1.0.0 enable
+2022-08-13T14:34:43.701Z - log: [Package] project@1.0.2 enable
+2022-08-13T14:34:43.706Z - log: [Package] messages@1.0.0 enable
+2022-08-13T14:34:43.709Z - log: [Package] program@1.0.0 enable
+2022-08-13T14:34:43.714Z - log: [Package] tester@1.0.0 enable
+2022-08-13T14:34:43.718Z - log: [Package] preferences@1.0.0 enable
+2022-08-13T14:34:44.225Z - log: Setup mods mgr.: 275.72ms
+2022-08-13T14:34:44.227Z - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle-2d,physics-2d-box2d,profiler,skeletal-animation,spine,tiled-map,tween,ui,video,webview)
+2022-08-13T14:34:44.231Z - verbose: [Engine] QuickCompile engine (466ms)
+2022-08-13T14:34:44.234Z - log: [Package] engine@1.0.6 enable
+2022-08-13T14:34:45.112Z - log: [Package] programming@1.0.0 enable
+2022-08-13T14:34:45.442Z - log: [Package] device@1.0.1 enable
+2022-08-13T14:34:45.475Z - log: [Package] ui-kit@1.0.1 enable
+2022-08-13T14:34:45.502Z - log: [Package] engine-extends@1.0.0 enable
+2022-08-13T14:34:45.563Z - log: [Package] asset-db@1.0.0 enable
+2022-08-13T14:34:45.598Z - log: [Package] scene@1.0.0 enable
+2022-08-13T14:34:45.750Z - log: [Package] server@1.0.0 enable
+2022-08-13T14:34:45.793Z - log: [Package] utils@1.0.0 enable
+2022-08-13T14:34:48.678Z - log: [Package] preview@1.0.1 enable
+2022-08-13T14:34:48.707Z - log: [Package] animator@1.0.0 enable
+2022-08-13T14:34:49.686Z - log: [Package] builder@1.3.2 enable
+2022-08-13T14:34:49.718Z - log: [Package] shortcuts@1.0.1 enable
+2022-08-13T14:34:49.758Z - log: [Package] animation-graph@1.0.0 enable
+2022-08-13T14:34:49.780Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2022-08-13T14:34:49.803Z - log: [Package] channel-upload-tools@1.0.0 enable
+2022-08-13T14:34:49.832Z - log: [Package] about@1.0.0 enable
+2022-08-13T14:34:49.864Z - log: [Package] assets@1.0.0 enable
+2022-08-13T14:34:49.896Z - log: [Package] console@1.0.0 enable
+2022-08-13T14:34:50.056Z - log: [Package] extension@3.0.16 enable
+2022-08-13T14:34:50.088Z - log: [Package] hierarchy@1.0.0 enable
+2022-08-13T14:34:50.126Z - log: [Package] inspector@1.0.0 enable
+2022-08-13T14:34:50.164Z - log: [Package] lightmap@1.0.4 enable
+2022-08-13T14:34:50.199Z - log: [Package] node-library@1.0.1 enable
+2022-08-13T14:34:50.222Z - log: [Package] package-asset@1.0.0 enable
+2022-08-13T14:34:50.253Z - log: [Package] process@1.0.0 enable
+2022-08-13T14:34:50.299Z - log: [Package] reference-image@1.0.0 enable
+2022-08-13T14:34:50.334Z - log: [Package] alipay-mini-game@1.0.0 enable
+2022-08-13T14:34:50.352Z - verbose: [AssetDB] Require engine code (1113ms)
+2022-08-13T14:34:50.366Z - log: [Package] android@1.0.0 enable
+2022-08-13T14:34:50.394Z - log: [Package] baidu-mini-game@1.0.0 enable
+2022-08-13T14:34:50.424Z - log: [Package] bytedance-mini-game@1.0.1 enable
+2022-08-13T14:34:50.453Z - log: [Package] cocos-play@1.0.0 enable
+2022-08-13T14:34:50.484Z - log: [Package] huawei-agc@1.0.0 enable
+2022-08-13T14:34:50.514Z - log: [Package] huawei-quick-game@1.0.0 enable
+2022-08-13T14:34:50.546Z - log: [Package] ios@1.0.0 enable
+2022-08-13T14:34:50.574Z - log: [Package] ios-app-clip@1.0.0 enable
+2022-08-13T14:34:50.604Z - log: [Package] link-sure@1.0.0 enable
+2022-08-13T14:34:50.633Z - log: [Package] linux@1.0.0 enable
+2022-08-13T14:34:50.664Z - log: [Package] mac@1.0.0 enable
+2022-08-13T14:34:50.768Z - log: [Package] native@1.0.0 enable
+2022-08-13T14:34:50.800Z - log: [Package] ohos@1.0.0 enable
+2022-08-13T14:34:50.829Z - log: [Package] open-harmonyos@1.0.0 enable
+2022-08-13T14:34:50.859Z - log: [Package] oppo-mini-game@1.0.0 enable
+2022-08-13T14:34:50.889Z - log: [Package] qtt@1.0.0 enable
+2022-08-13T14:34:50.919Z - log: [Package] vivo-mini-game@1.0.0 enable
+2022-08-13T14:34:50.954Z - log: [Package] web-desktop@1.0.0 enable
+2022-08-13T14:34:50.991Z - log: [Package] web-mobile@1.0.0 enable
+2022-08-13T14:34:51.037Z - log: [Package] wechatgame@1.0.1 enable
+2022-08-13T14:34:51.061Z - log: [Package] windows@1.0.0 enable
+2022-08-13T14:34:51.083Z - log: [Package] xiaomi-quick-game@1.0.0 enable
+2022-08-13T14:34:51.333Z - log: [Package] cocos-service@3.0.3 enable
+2022-08-13T14:34:51.383Z - log: [Package] importer@1.0.0 enable
+2022-08-13T14:34:51.635Z - log: [Im-plugin] Check im-plugin version.
+2022-08-13T14:34:51.651Z - log: [Package] im-plugin@3.0.8 enable
+2022-08-13T14:34:55.472Z - verbose: [Scene] Require engine code (1ms)
+2022-08-13T14:34:55.473Z - verbose: [Scene] Startup engine (0ms)
+2022-08-13T14:34:55.511Z - log: [Scene] Cocos Creator v3.5.2
+2022-08-13T14:34:56.010Z - verbose: [Scene] Open engine (536ms)
+2022-08-13T14:34:56.010Z - verbose: [Scene] Configure engine (0ms)
+2022-08-13T14:34:55.569Z - info: [Scene] Forward render pipeline initialized.
+2022-08-13T14:35:07.842Z - log: [Im-plugin] No online info of im-plugin.
+2022-08-13T14:35:22.927Z - error: getImSetting failed
+2022-08-13T14:35:22.928Z - error: getImSetting failed
+2022-08-13T14:35:22.942Z - error: getImSetting failed
+2022-08-13T15:02:04.635Z - error: [Window] [Vue warn]: Error in v-on handler (Promise/async): "TypeError: Cannot read property 'value' of undefined"
+
+found in
+
+---> <TreeNode>
+       <Tree>
+         <Root>
+2022-08-13T15:02:04.635Z - error: [Window] Cannot read property 'value' of undefinedTypeError: Cannot read property 'value' of undefined
+    at VueComponent.addChange (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-node.ccc:1:4252)
+    at input (eval at createFunction (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:11628:14), <anonymous>:3:2904)
+    at invokeWithErrorHandling (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:1863:28)
+    at HTMLInputElement.invoker (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:2188:16)
+    at HTMLInputElement.<anonymous> (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:7541:27)
+2022-08-13T15:02:05.146Z - error: [Window] [Vue warn]: Error in v-on handler (Promise/async): "TypeError: Cannot read property 'value' of undefined"
+
+found in
+
+---> <TreeNode>
+       <Tree>
+         <Root>
+2022-08-13T15:02:05.146Z - error: [Window] Cannot read property 'value' of undefinedTypeError: Cannot read property 'value' of undefined
+    at VueComponent.addChange (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-node.ccc:1:4252)
+    at input (eval at createFunction (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:11628:14), <anonymous>:3:2904)
+    at invokeWithErrorHandling (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:1863:28)
+    at HTMLInputElement.invoker (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:2188:16)
+    at HTMLInputElement.<anonymous> (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:7541:27)
+2022-08-13T15:02:05.538Z - error: [Window] [Vue warn]: Error in v-on handler (Promise/async): "TypeError: Cannot read property 'value' of undefined"
+
+found in
+
+---> <TreeNode>
+       <Tree>
+         <Root>
+2022-08-13T15:02:05.538Z - error: [Window] Cannot read property 'value' of undefinedTypeError: Cannot read property 'value' of undefined
+    at VueComponent.addChange (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\modules\editor-extensions\extensions\assets\dist\components\tree-node.ccc:1:4252)
+    at input (eval at createFunction (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:11628:14), <anonymous>:3:2904)
+    at invokeWithErrorHandling (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:1863:28)
+    at HTMLInputElement.invoker (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:2188:16)
+    at HTMLInputElement.<anonymous> (D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\app.asar\node_modules\vue\dist\vue.js:7541:27)
+2022-08-13T15:02:26.361Z - warn: Metrics: no valid info
+2022-08-13T15:02:41.950Z - log: [Package] menu@1.0.0 enable
+2022-08-13T15:02:41.952Z - log: [Package] profile@1.0.0 enable
+2022-08-13T15:02:41.960Z - log: [Package] project@1.0.2 enable
+2022-08-13T15:02:41.966Z - log: [Package] messages@1.0.0 enable
+2022-08-13T15:02:41.968Z - log: [Package] program@1.0.0 enable
+2022-08-13T15:02:41.974Z - log: [Package] tester@1.0.0 enable
+2022-08-13T15:02:41.979Z - log: [Package] preferences@1.0.0 enable
+2022-08-13T15:02:42.496Z - log: Setup mods mgr.: 279.702ms
+2022-08-13T15:02:42.498Z - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,marionette,particle-2d,physics-2d-box2d,profiler,skeletal-animation,spine,tiled-map,tween,ui,video,webview)
+2022-08-13T15:02:42.501Z - verbose: [Engine] QuickCompile engine (475ms)
+2022-08-13T15:02:42.504Z - log: [Package] engine@1.0.6 enable
+2022-08-13T15:02:43.441Z - log: [Package] programming@1.0.0 enable
+2022-08-13T15:02:43.785Z - log: [Package] device@1.0.1 enable
+2022-08-13T15:02:43.820Z - log: [Package] ui-kit@1.0.1 enable
+2022-08-13T15:02:43.846Z - log: [Package] engine-extends@1.0.0 enable
+2022-08-13T15:02:43.913Z - log: [Package] asset-db@1.0.0 enable
+2022-08-13T15:02:43.950Z - log: [Package] scene@1.0.0 enable
+2022-08-13T15:02:44.093Z - log: [Package] server@1.0.0 enable
+2022-08-13T15:02:44.138Z - log: [Package] utils@1.0.0 enable
+2022-08-13T15:02:47.065Z - log: [Package] preview@1.0.1 enable
+2022-08-13T15:02:47.096Z - log: [Package] animator@1.0.0 enable
+2022-08-13T15:02:48.118Z - log: [Package] builder@1.3.2 enable
+2022-08-13T15:02:48.150Z - log: [Package] shortcuts@1.0.1 enable
+2022-08-13T15:02:48.180Z - log: [Package] animation-graph@1.0.0 enable
+2022-08-13T15:02:48.203Z - log: [Package] runtime-dev-tools@1.0.0 enable
+2022-08-13T15:02:48.225Z - log: [Package] channel-upload-tools@1.0.0 enable
+2022-08-13T15:02:48.254Z - log: [Package] about@1.0.0 enable
+2022-08-13T15:02:48.286Z - log: [Package] assets@1.0.0 enable
+2022-08-13T15:02:48.318Z - log: [Package] console@1.0.0 enable
+2022-08-13T15:02:48.480Z - log: [Package] extension@3.0.16 enable
+2022-08-13T15:02:48.511Z - log: [Package] hierarchy@1.0.0 enable
+2022-08-13T15:02:48.543Z - log: [Package] inspector@1.0.0 enable
+2022-08-13T15:02:48.576Z - log: [Package] lightmap@1.0.4 enable
+2022-08-13T15:02:48.609Z - log: [Package] node-library@1.0.1 enable
+2022-08-13T15:02:48.632Z - log: [Package] package-asset@1.0.0 enable
+2022-08-13T15:02:48.676Z - log: [Package] process@1.0.0 enable
+2022-08-13T15:02:48.722Z - log: [Package] reference-image@1.0.0 enable
+2022-08-13T15:02:48.758Z - log: [Package] alipay-mini-game@1.0.0 enable
+2022-08-13T15:02:48.773Z - verbose: [AssetDB] Require engine code (1070ms)
+2022-08-13T15:02:48.782Z - log: [Package] android@1.0.0 enable
+2022-08-13T15:02:48.818Z - log: [Package] baidu-mini-game@1.0.0 enable
+2022-08-13T15:02:48.847Z - log: [Package] bytedance-mini-game@1.0.1 enable
+2022-08-13T15:02:48.878Z - log: [Package] cocos-play@1.0.0 enable
+2022-08-13T15:02:48.909Z - log: [Package] huawei-agc@1.0.0 enable
+2022-08-13T15:02:48.939Z - log: [Package] huawei-quick-game@1.0.0 enable
+2022-08-13T15:02:48.970Z - log: [Package] ios@1.0.0 enable
+2022-08-13T15:02:48.998Z - log: [Package] ios-app-clip@1.0.0 enable
+2022-08-13T15:02:49.029Z - log: [Package] link-sure@1.0.0 enable
+2022-08-13T15:02:49.058Z - log: [Package] linux@1.0.0 enable
+2022-08-13T15:02:49.088Z - log: [Package] mac@1.0.0 enable
+2022-08-13T15:02:49.187Z - log: [Package] native@1.0.0 enable
+2022-08-13T15:02:49.224Z - log: [Package] ohos@1.0.0 enable
+2022-08-13T15:02:49.254Z - log: [Package] open-harmonyos@1.0.0 enable
+2022-08-13T15:02:49.284Z - log: [Package] oppo-mini-game@1.0.0 enable
+2022-08-13T15:02:49.315Z - log: [Package] qtt@1.0.0 enable
+2022-08-13T15:02:49.339Z - log: [Package] vivo-mini-game@1.0.0 enable
+2022-08-13T15:02:49.373Z - log: [Package] web-desktop@1.0.0 enable
+2022-08-13T15:02:49.417Z - log: [Package] web-mobile@1.0.0 enable
+2022-08-13T15:02:49.451Z - log: [Package] wechatgame@1.0.1 enable
+2022-08-13T15:02:49.475Z - log: [Package] windows@1.0.0 enable
+2022-08-13T15:02:49.498Z - log: [Package] xiaomi-quick-game@1.0.0 enable
+2022-08-13T15:02:49.726Z - log: [Package] cocos-service@3.0.3 enable
+2022-08-13T15:02:49.767Z - log: [Package] importer@1.0.0 enable
+2022-08-13T15:02:50.014Z - log: [Im-plugin] Check im-plugin version.
+2022-08-13T15:02:50.025Z - log: [Package] im-plugin@3.0.8 enable
+2022-08-13T15:02:53.691Z - verbose: [Scene] Require engine code (0ms)
+2022-08-13T15:02:53.692Z - verbose: [Scene] Startup engine (1ms)
+2022-08-13T15:02:53.725Z - log: [Scene] Cocos Creator v3.5.2
+2022-08-13T15:02:54.209Z - verbose: [Scene] Open engine (517ms)
+2022-08-13T15:02:54.209Z - verbose: [Scene] Configure engine (0ms)
+2022-08-13T15:02:53.788Z - info: [Scene] Forward render pipeline initialized.
+2022-08-13T15:03:14.559Z - log: [Im-plugin] No online info of im-plugin.
+2022-08-13T15:20:21.014Z - error: [Preview]load http://localhost:7456/assets/assetsResours/index.js failed
+2022-08-13T15:20:21.037Z - error: [Preview]Uncaught TypeError: Cannot read properties of undefined (reading 'load') in http://localhost:7456/scripting/x/chunks/a1/a18fce8bd65b49f1d99fd0af191d3245c71b1cad.js
+2022-08-13T15:20:45.445Z - error: [Preview]load http://localhost:7456/assets/assetsResours/index.js failed
+2022-08-13T15:20:45.470Z - error: [Preview]Uncaught TypeError: Cannot read properties of undefined (reading 'load') in http://localhost:7456/scripting/x/chunks/1a/1aabb67ad911f72fb8b42715f34f5f664b5f28f3.js
+2022-08-13T15:20:47.841Z - error: [Preview]load http://localhost:7456/assets/assetsResours/index.js failed
+2022-08-13T15:20:47.865Z - error: [Preview]Uncaught TypeError: Cannot read properties of undefined (reading 'load') in http://localhost:7456/scripting/x/chunks/1a/1aabb67ad911f72fb8b42715f34f5f664b5f28f3.js
+2022-08-13T15:21:16.805Z - error: [Preview]load http://localhost:7456/assets/assetsResours/index.js failed
+2022-08-13T15:21:16.834Z - error: [Preview]Uncaught TypeError: Cannot read properties of undefined (reading 'load') in http://localhost:7456/scripting/x/chunks/1a/1aabb67ad911f72fb8b42715f34f5f664b5f28f3.js
+2022-08-13T15:24:49.759Z - error: [Preview]load http://localhost:7456/assets/assetsResours/index.js failed
+2022-08-13T15:26:36.623Z - error: [Preview]load http://localhost:7456/assets/assetsResours/index.js failed
+2022-08-13T15:27:23.745Z - error: [Preview]load http://localhost:7456/assets/assetsResours/index.js failed
+2022-08-13T15:27:28.379Z - error: [Preview]load http://localhost:7456/assets/assetsResours/index.js failed
+2022-08-13T15:27:52.397Z - error: [Preview]load http://localhost:7456/assets/assetsResours/index.js failed
+2022-08-13T15:27:55.166Z - error: [Preview]load http://localhost:7456/assets/assetsResours/index.js failed
+2022-08-13T15:57:29.859Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T15:57:40.293Z - error: db removeFile fail: Error: Operation was aborted
+2022-08-13T15:57:40.381Z - error: [Asset DB] ENOENT: no such file or directory, stat 'D:\game\iKunGame\assets\assetsResours\music\jitaimei_1.mp4.meta'Error: ENOENT: no such file or directory, stat 'D:\game\iKunGame\assets\assetsResours\music\jitaimei_1.mp4.meta'
+2022-08-13T15:57:40.386Z - error: [Asset DB] ENOENT: no such file or directory, stat 'D:\game\iKunGame\assets\assetsResours\music\jitaimei_1.mp4.meta'Error: ENOENT: no such file or directory, stat 'D:\game\iKunGame\assets\assetsResours\music\jitaimei_1.mp4.meta'
+2022-08-13T15:57:40.484Z - error: [Asset DB] ENOENT: no such file or directory, stat 'D:\game\iKunGame\assets\assetsResours\music\jitaimei_1.mp4.meta'Error: ENOENT: no such file or directory, stat 'D:\game\iKunGame\assets\assetsResours\music\jitaimei_1.mp4.meta'
+2022-08-13T15:58:47.931Z - error: [Asset DB] ENOENT: no such file or directory, stat 'D:\game\iKunGame\assets\assetsResours\music\jitaimei_1.mp4.meta'Error: ENOENT: no such file or directory, stat 'D:\game\iKunGame\assets\assetsResours\music\jitaimei_1.mp4.meta'
+2022-08-13T15:58:54.329Z - error: [Asset DB] ENOENT: no such file or directory, stat 'D:\game\iKunGame\assets\assetsResours\music\jitaimei_1.mp4.meta'Error: ENOENT: no such file or directory, stat 'D:\game\iKunGame\assets\assetsResours\music\jitaimei_1.mp4.meta'
+2022-08-13T15:58:54.333Z - error: [Asset DB] ENOENT: no such file or directory, stat 'D:\game\iKunGame\assets\assetsResours\music\jitaimei_1.mp4.meta'Error: ENOENT: no such file or directory, stat 'D:\game\iKunGame\assets\assetsResours\music\jitaimei_1.mp4.meta'
+2022-08-13T16:02:57.312Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:03:57.958Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:03:59.210Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:04:12.189Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:04:13.265Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:05:51.622Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:06:21.437Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:07:24.629Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:07:25.994Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:07:48.324Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:07:49.495Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:09:26.779Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:09:34.634Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:09:36.257Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:11:14.374Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:11:15.483Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:12:22.241Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:12:23.371Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:14:48.150Z - error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'Error: ENOENT: no such file or directory, open 'C:\Users\XIAO KA\AppData\Local\Temp\58a2a6f8-edac-4134-9aeb-d1e6a8c7a534.tmp.map'
+2022-08-13T16:20:25.072Z - warn: Metrics: no valid info

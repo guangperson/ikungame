@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 9402.37440000102,
+      "mTimestamp": 9492.389499999583,
       "chunkId": "06905a76530cf57ee019d9d8bcfb507c2d037fd3",
       "imports": [
         {
@@ -493,11 +493,76 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 9402.360100001097,
-      "chunkId": "051e512bc19ae273b1b08b612b292a731729aa05",
-      "imports": [],
+      "mTimestamp": 4179261.7868000045,
+      "chunkId": "48925ed89f58b0eff72f0ddf69b47c4b5e8f623a",
+      "imports": [
+        {
+          "value": "file:///D:/game/iKunGame/assets/script/main.ts",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 35
+            },
+            "end": {
+              "line": 5,
+              "column": 83
+            }
+          }
+        }
+      ],
       "type": "esm",
-      "resolutions": []
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/game/iKunGame/assets/script/main.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/game/iKunGame/assets/script/main.ts": {
+      "mTimestamp": {
+        "mtime": 1660407139742.387,
+        "uuid": "e3179c8d-697e-41e4-8a0e-b447d9092743"
+      },
+      "chunkId": "e07df83b3b12f948ed92f8057522b5b558bd75ef",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 132
+            },
+            "end": {
+              "line": 1,
+              "column": 136
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
     }
   }
 }
