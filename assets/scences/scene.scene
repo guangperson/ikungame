@@ -66,7 +66,7 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 479.99999999999994,
+      "x": 480,
       "y": 320,
       "z": 0
     },
@@ -197,7 +197,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 199,
+      "y": 120,
       "z": 0
     },
     "_lrot": {
@@ -234,7 +234,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 960,
-      "height": 240
+      "height": 400
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -264,7 +264,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "738bab9e-aa08-420a-96db-d958a285bbcb@f9941",
+      "__uuid__": "a875fe64-0b7b-4c95-b084-1f7ce335ae8e@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -370,7 +370,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "35fbf88d-beaf-4bca-972f-7f622aec2636@f9941",
+      "__uuid__": "9a554f08-9b8b-4120-aa64-3883f15bdc22@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -888,12 +888,12 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
+      "r": 0,
+      "g": 0,
+      "b": 0,
       "a": 255
     },
-    "_string": "sssss ",
+    "_string": "",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
     "_actualFontSize": 21,
@@ -3541,7 +3541,7 @@
         "__id__": 142
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 149
@@ -5898,7 +5898,7 @@
         "__id__": 201
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 208
@@ -8255,7 +8255,7 @@
         "__id__": 260
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 267
@@ -10612,7 +10612,7 @@
         "__id__": 319
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 326
@@ -13033,9 +13033,9 @@
     "__prefab": null,
     "_alignFlags": 45,
     "_target": null,
-    "_left": -5.684341886080802e-14,
-    "_right": -5.684341886080802e-14,
-    "_top": 1.003134796238328,
+    "_left": 0,
+    "_right": 1.1368683772161603e-13,
+    "_top": 0,
     "_bottom": 0,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
