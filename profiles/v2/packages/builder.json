@@ -5,7 +5,7 @@
   },
   "common": {
     "outputName": "android",
-    "mainBundleCompressionType": "merge_dep",
+    "mainBundleCompressionType": "none",
     "platform": "android",
     "md5Cache": false,
     "buildPath": "project://../../gameWork/dabao",
@@ -13,6 +13,88 @@
     "experimentalEraseModules": true
   },
   "BuildTaskManager": {
-    "taskMap": {}
+    "taskMap": {
+      "1660480882808": {
+        "id": "1660480882808",
+        "progress": 0.965,
+        "state": "processing",
+        "message": "native:(make) start...",
+        "options": {
+          "name": "iKunGame",
+          "platform": "android",
+          "buildPath": "project://../../gameWork/dabao",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": true,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "none",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": true,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "2c84e0b0-7e15-493b-bbb9-6dc8eaa910da",
+          "scenes": [
+            {
+              "url": "db://assets/scences/scene.scene",
+              "uuid": "2c84e0b0-7e15-493b-bbb9-6dc8eaa910da",
+              "inBundle": false
+            }
+          ],
+          "outputName": "android",
+          "packages": {
+            "android": {
+              "packageName": "com.ikun",
+              "orientation": {
+                "portrait": false,
+                "upsideDown": false,
+                "landscapeRight": true,
+                "landscapeLeft": true
+              },
+              "apiLevel": "android-28",
+              "appABIs": [
+                "x86",
+                "arm64-v8a",
+                "x86_64",
+                "armeabi-v7a"
+              ],
+              "useDebugKeystore": true,
+              "keystorePath": "",
+              "keystorePassword": "",
+              "keystoreAlias": "",
+              "keystoreAliasPassword": "",
+              "appBundle": false,
+              "androidInstant": false,
+              "remoteUrl": "",
+              "sdkPath": "",
+              "ndkPath": "",
+              "renderBackEnd": {
+                "vulkan": false,
+                "gles3": true,
+                "gles2": false
+              },
+              "swappy": false
+            },
+            "cocos-service": {
+              "configID": "6a2275",
+              "services": []
+            },
+            "native": {
+              "polyfills": {
+                "asyncFunctions": true
+              },
+              "encrypted": false,
+              "xxteaKey": "ccoD6qkydBxKMbE3",
+              "compressZip": false,
+              "makeAfterBuild": true,
+              "JobSystem": "none"
+            }
+          }
+        },
+        "time": "2022-8-14 20:41",
+        "dirty": false
+      }
+    }
   }
 }

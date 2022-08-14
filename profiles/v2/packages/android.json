@@ -21,7 +21,7 @@
       "keystorePassword": "",
       "keystoreAlias": "",
       "keystoreAliasPassword": "",
-      "appBundle": true,
+      "appBundle": false,
       "androidInstant": false,
       "remoteUrl": "",
       "sdkPath": "",
