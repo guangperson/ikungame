@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 9494.576000005007,
+      "mTimestamp": 13400.542799999937,
       "chunkId": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e",
       "imports": [
         {
@@ -409,8 +409,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 4179300.5538000017,
-      "chunkId": "6b8f85b7feaee65395ce6b5e8080983e7f56d534",
+      "mTimestamp": 13586.836799999699,
+      "chunkId": "6cea9118b313aa76b67e6fd6577a4a82aae4c9d4",
       "imports": [
         {
           "value": "file:///D:/game/iKunGame/assets/script/main.ts",
@@ -425,6 +425,20 @@
               "column": 55
             }
           }
+        },
+        {
+          "value": "file:///D:/game/iKunGame/assets/script/utils/data.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "end": {
+              "line": 5,
+              "column": 61
+            }
+          }
         }
       ],
       "type": "esm",
@@ -435,15 +449,22 @@
             "url": "file:///D:/game/iKunGame/assets/script/main.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/game/iKunGame/assets/script/utils/data.ts"
+          },
+          "messages": []
         }
       ]
     },
     "file:///D:/game/iKunGame/assets/script/main.ts": {
       "mTimestamp": {
-        "mtime": 1660407139742.387,
+        "mtime": 1660463451105.597,
         "uuid": "e3179c8d-697e-41e4-8a0e-b447d9092743"
       },
-      "chunkId": "770f4a2509149d64a7762af1ae56278d4a5edf49",
+      "chunkId": "cc9934125a6bbc2807b4ebcf17d46d73e326c99b",
       "imports": [
         {
           "value": "cc"
@@ -453,11 +474,75 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 132
+              "column": 143
             },
             "end": {
               "line": 1,
-              "column": 136
+              "column": 147
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/game/iKunGame/assets/script/utils/data.ts": {
+      "mTimestamp": {
+        "mtime": 1660459988079.7026,
+        "uuid": "e342423d-32ae-4c74-8c40-57c6cf4ff7b9"
+      },
+      "chunkId": "99c1cd29ada4c3423abb3a1d68345ba8bcc0aaa9",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/game/iKunGame/assets/assetsResours/json/json.json.ts": {
+      "mTimestamp": {
+        "mtime": 1660459082794.61,
+        "uuid": "be3d483d-9ca8-4f12-81b7-4dbe113d4493"
+      },
+      "chunkId": "3881f1549428dc8390d492bfea295cce46e64ef1",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
             }
           }
         }

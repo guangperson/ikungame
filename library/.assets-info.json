@@ -11,7 +11,7 @@
     "time": 1660376679628.7976
   },
   "D:\\game\\iKunGame\\assets\\scences\\scene.scene": {
-    "time": 1660406974334.2527,
+    "time": 1660480410621.8086,
     "uuid": "2c84e0b0-7e15-493b-bbb9-6dc8eaa910da",
     "missing": false
   },
@@ -19,7 +19,7 @@
     "time": 1660401970720.237
   },
   "D:\\game\\iKunGame\\assets\\script": {
-    "time": 1660402066639.6003,
+    "time": 1660458811561.9644,
     "uuid": "b3128c3f-5153-4ea3-999e-c443ca41f942",
     "missing": false
   },
@@ -27,7 +27,7 @@
     "time": 1660402066643.5898
   },
   "D:\\game\\iKunGame\\assets\\script\\main.ts": {
-    "time": 1660407139742.387,
+    "time": 1660463451105.597,
     "uuid": "e3179c8d-697e-41e4-8a0e-b447d9092743",
     "missing": false
   },
@@ -35,7 +35,7 @@
     "time": 1660404658863.1643
   },
   "D:\\game\\iKunGame\\assets\\assetsResours": {
-    "time": 1660402931281.6938,
+    "time": 1660459065172.743,
     "uuid": "d75fe585-c18a-474b-afa7-414179e59427",
     "missing": false
   },
@@ -43,7 +43,7 @@
     "time": 1660401952908.8923
   },
   "D:\\game\\iKunGame\\assets\\assetsResours\\music": {
-    "time": 1660406743175.484,
+    "time": 1660460974031.9502,
     "uuid": "4f288afd-0a11-451a-932e-fad324a9be3c",
     "missing": false
   },
@@ -133,6 +133,78 @@
   "D:\\game\\iKunGame\\assets\\assetsResours\\music\\jinitaimei_1.mp3": {
     "time": 1660406321140.464,
     "uuid": "8c8fc6be-d779-4fb4-a006-d4bf10a29639",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\script\\utils.meta": {
+    "time": 1660458811565.9531
+  },
+  "D:\\game\\iKunGame\\assets\\script\\utils": {
+    "time": 1660458928225.9253,
+    "uuid": "a7cae645-b10f-4829-b323-a0f117bd863c",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\script\\utils\\data.ts.meta": {
+    "time": 1660458928230.912
+  },
+  "D:\\game\\iKunGame\\assets\\script\\utils\\data.ts": {
+    "time": 1660459988079.7026,
+    "uuid": "e342423d-32ae-4c74-8c40-57c6cf4ff7b9",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\json.meta": {
+    "time": 1660459065172.743
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\json": {
+    "time": 1660459371469.1985,
+    "uuid": "b24fbf47-fc05-4217-9d28-34d0597f709d",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\json\\text.json.meta": {
+    "time": 1660459371475.1829
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\json\\text.json": {
+    "time": 1660461202370.0713,
+    "uuid": "91afc169-b3a7-496d-b557-73c37c98e52f",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\music\\jinitaimei_2.mp3.meta": {
+    "time": 1660460400781.2847
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\music\\jinitaimei_2.mp3": {
+    "time": 1660460372987.7434,
+    "uuid": "0443fd2e-9928-4f5c-83ce-f537fba748cd",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\music\\jinitaimei_3.mp3.meta": {
+    "time": 1660460604357.2727
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\music\\jinitaimei_3.mp3": {
+    "time": 1660460562459.776,
+    "uuid": "ece80498-5ac9-4eb7-a397-d3b9dd491dba",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\music\\jinitaimei_4.mp3.meta": {
+    "time": 1660460738345.0896
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\music\\jinitaimei_4.mp3": {
+    "time": 1660460724616.1472,
+    "uuid": "0cc5fe2d-721a-49f8-9979-9ef8b6c8b584",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\music\\jinitaimei_5.mp3.meta": {
+    "time": 1660460880393.1907
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\music\\jinitaimei_5.mp3": {
+    "time": 1660460841110.2007,
+    "uuid": "eabdcd95-d121-4ce1-832c-ef90dd2782c8",
+    "missing": false
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\music\\jinitaimei_6.mp3.meta": {
+    "time": 1660460974049.902
+  },
+  "D:\\game\\iKunGame\\assets\\assetsResours\\music\\jinitaimei_6.mp3": {
+    "time": 1660460960226.1868,
+    "uuid": "45a91f4c-8eba-46d2-95f8-b4380666568d",
     "missing": false
   }
 }

@@ -1,6 +1,18 @@
 {
   "__version__": "1.3.2",
   "log": {
-    "level": 4
+    "level": 1
+  },
+  "common": {
+    "outputName": "android",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "android",
+    "md5Cache": false,
+    "buildPath": "project://../../gameWork/dabao",
+    "sourceMaps": true,
+    "experimentalEraseModules": true
+  },
+  "BuildTaskManager": {
+    "taskMap": {}
   }
 }

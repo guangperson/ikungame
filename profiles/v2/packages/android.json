@@ -1,0 +1,37 @@
+{
+  "__version__": "1.0.0",
+  "options": {
+    "android": {
+      "packageName": "com.ikun",
+      "orientation": {
+        "portrait": false,
+        "upsideDown": false,
+        "landscapeRight": true,
+        "landscapeLeft": true
+      },
+      "apiLevel": "android-28",
+      "appABIs": [
+        "x86",
+        "arm64-v8a",
+        "x86_64",
+        "armeabi-v7a"
+      ],
+      "useDebugKeystore": true,
+      "keystorePath": "",
+      "keystorePassword": "",
+      "keystoreAlias": "",
+      "keystoreAliasPassword": "",
+      "appBundle": true,
+      "androidInstant": false,
+      "remoteUrl": "",
+      "sdkPath": "",
+      "ndkPath": "",
+      "renderBackEnd": {
+        "vulkan": false,
+        "gles3": true,
+        "gles2": false
+      },
+      "swappy": false
+    }
+  }
+}

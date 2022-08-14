@@ -1,5 +1,41 @@
 {
   "chunks": {
+    "3881f1549428dc8390d492bfea295cce46e64ef1": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "06905a76530cf57ee019d9d8bcfb507c2d037fd3"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1660459082853
+    },
+    "99c1cd29ada4c3423abb3a1d68345ba8bcc0aaa9": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "06905a76530cf57ee019d9d8bcfb507c2d037fd3"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1660459998787
+    },
+    "f16515d558df872914ce9bda5996bf45e893d6c5": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "06905a76530cf57ee019d9d8bcfb507c2d037fd3"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1660463454323
+    },
     "06905a76530cf57ee019d9d8bcfb507c2d037fd3": {
       "imports": {
         "__unresolved_0": {
@@ -164,36 +200,32 @@
           "messages": []
         }
       },
-      "timestamp": 1660402972230
+      "timestamp": 1660470556949
     },
-    "48925ed89f58b0eff72f0ddf69b47c4b5e8f623a": {
+    "6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
             "type": "chunk",
-            "id": "e07df83b3b12f948ed92f8057522b5b558bd75ef"
+            "id": "f16515d558df872914ce9bda5996bf45e893d6c5"
           },
           "messages": []
-        }
-      },
-      "timestamp": 1660407141814
-    },
-    "e07df83b3b12f948ed92f8057522b5b558bd75ef": {
-      "imports": {
-        "cc": {
+        },
+        "__unresolved_1": {
           "resolved": {
             "type": "chunk",
-            "id": "06905a76530cf57ee019d9d8bcfb507c2d037fd3"
+            "id": "99c1cd29ada4c3423abb3a1d68345ba8bcc0aaa9"
           },
           "messages": []
         }
       },
-      "timestamp": 1660407141839
+      "timestamp": 1660470556966
     }
   },
   "entries": {
     "cce:/internal/x/cc": "06905a76530cf57ee019d9d8bcfb507c2d037fd3",
-    "cce:/internal/x/prerequisite-imports": "48925ed89f58b0eff72f0ddf69b47c4b5e8f623a",
-    "file:///D:/game/iKunGame/assets/script/main.ts": "e07df83b3b12f948ed92f8057522b5b558bd75ef"
+    "cce:/internal/x/prerequisite-imports": "6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3",
+    "file:///D:/game/iKunGame/assets/script/main.ts": "f16515d558df872914ce9bda5996bf45e893d6c5",
+    "file:///D:/game/iKunGame/assets/script/utils/data.ts": "99c1cd29ada4c3423abb3a1d68345ba8bcc0aaa9"
   }
 }

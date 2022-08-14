@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4726922c-956f-42c1-b108-a650e8ecfb4b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/scences/scene.scene" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scences/scene.scene" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/script/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/script/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/.assets-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/library/.assets-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/.assets-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/library/.assets-info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/2c/2c84e0b0-7e15-493b-bbb9-6dc8eaa910da.json" beforeDir="false" afterPath="$PROJECT_DIR$/library/2c/2c84e0b0-7e15-493b-bbb9-6dc8eaa910da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local/logs/project.log" beforeDir="false" afterPath="$PROJECT_DIR$/local/logs/project.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/v2/packages/builder.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/v2/packages/builder.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/v2/packages/scene.json" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/v2/packages/scene.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/asset-db/assets/thumbnail/738bab9e-aa08-420a-96db-d958a285bbcb/738bab9e-aa08-420a-96db-d958a285bbcb@6c48a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/asset-db/assets/thumbnail/738bab9e-aa08-420a-96db-d958a285bbcb/738bab9e-aa08-420a-96db-d958a285bbcb@f9941" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/profiles/packages/assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/temp/profiles/packages/assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/profiles/packages/hierarchy.json" beforeDir="false" afterPath="$PROJECT_DIR$/temp/profiles/packages/hierarchy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/programming/packer-driver/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/temp/programming/packer-driver/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/programming/packer-driver/targets/editor/assembly-record.json" beforeDir="false" afterPath="$PROJECT_DIR$/temp/programming/packer-driver/targets/editor/assembly-record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/programming/packer-driver/targets/editor/import-map.json" beforeDir="false" afterPath="$PROJECT_DIR$/temp/programming/packer-driver/targets/editor/import-map.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/programming/packer-driver/targets/editor/main-record.json" beforeDir="false" afterPath="$PROJECT_DIR$/temp/programming/packer-driver/targets/editor/main-record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/programming/packer-driver/targets/preview/assembly-record.json" beforeDir="false" afterPath="$PROJECT_DIR$/temp/programming/packer-driver/targets/preview/assembly-record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/programming/packer-driver/targets/preview/import-map.json" beforeDir="false" afterPath="$PROJECT_DIR$/temp/programming/packer-driver/targets/preview/import-map.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/programming/packer-driver/targets/preview/main-record.json" beforeDir="false" afterPath="$PROJECT_DIR$/temp/programming/packer-driver/targets/preview/main-record.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/scene/cache/2c84e0b0-7e15-493b-bbb9-6dc8eaa910da/1660407353354.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/scene/cache/2c84e0b0-7e15-493b-bbb9-6dc8eaa910da/1660407361971.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/startup.json" beforeDir="false" afterPath="$PROJECT_DIR$/temp/startup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/tsconfig.cocos.json" beforeDir="false" afterPath="$PROJECT_DIR$/temp/tsconfig.cocos.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../softeem/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\softeem\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2DLB3DRI8U6yj7vFgNLndmZFmJX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gameWork/打包/android" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4726922c-956f-42c1-b108-a650e8ecfb4b" name="Default Changelist" comment="" />
+      <created>1660468282323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660468282323</updated>
+      <workItem from="1660468284140" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1700" y="455" key="FileChooserDialogImpl" timestamp="1660468310262">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1700" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1660468310262" />
+  </component>
+</project>

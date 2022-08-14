@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "78BYj+xgxOI4PKiKy4OyJM@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "biankuang",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 90,
+                "height": 83
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 90,
+                "height": 83
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "packable": true
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

@@ -78,5 +78,61 @@
   "8c8fc6be-d779-4fb4-a006-d4bf10a29639": {
     "url": "db://assets/assetsResours/music/jinitaimei_1.mp3",
     "value": {}
+  },
+  "a7cae645-b10f-4829-b323-a0f117bd863c": {
+    "url": "db://assets/script/utils",
+    "value": {}
+  },
+  "e342423d-32ae-4c74-8c40-57c6cf4ff7b9": {
+    "url": "db://assets/script/utils/data.ts",
+    "value": {}
+  },
+  "b24fbf47-fc05-4217-9d28-34d0597f709d": {
+    "url": "db://assets/assetsResours/json",
+    "value": {}
+  },
+  "be3d483d-9ca8-4f12-81b7-4dbe113d4493": {
+    "url": "db://assets/assetsResours/json/json.json.ts",
+    "value": {}
+  },
+  "509f00e1-1ad7-4859-9a60-9290636ca540": {
+    "url": "db://assets/assetsResours/json/json.json",
+    "value": {}
+  },
+  "743c43ea-06fc-4b7b-8297-6fcef3e7b16c": {
+    "url": "db://assets/assetsResours/json/json-001.json",
+    "value": {}
+  },
+  "2b378da0-ffa4-4d28-ac83-fcd794ccdbe1": {
+    "url": "db://assets/assetsResours/json/json.json",
+    "value": {}
+  },
+  "ede0cb4a-6008-4ba1-926a-c33272dfcfa2": {
+    "url": "db://assets/assetsResours/json/json",
+    "value": {}
+  },
+  "91afc169-b3a7-496d-b557-73c37c98e52f": {
+    "url": "db://assets/assetsResours/json/text.json",
+    "value": {}
+  },
+  "0443fd2e-9928-4f5c-83ce-f537fba748cd": {
+    "url": "db://assets/assetsResours/music/jinitaimei_2.mp3",
+    "value": {}
+  },
+  "ece80498-5ac9-4eb7-a397-d3b9dd491dba": {
+    "url": "db://assets/assetsResours/music/jinitaimei_3.mp3",
+    "value": {}
+  },
+  "0cc5fe2d-721a-49f8-9979-9ef8b6c8b584": {
+    "url": "db://assets/assetsResours/music/jinitaimei_4.mp3",
+    "value": {}
+  },
+  "eabdcd95-d121-4ce1-832c-ef90dd2782c8": {
+    "url": "db://assets/assetsResours/music/jinitaimei_5.mp3",
+    "value": {}
+  },
+  "45a91f4c-8eba-46d2-95f8-b4380666568d": {
+    "url": "db://assets/assetsResours/music/jinitaimei_6.mp3",
+    "value": {}
   }
 }

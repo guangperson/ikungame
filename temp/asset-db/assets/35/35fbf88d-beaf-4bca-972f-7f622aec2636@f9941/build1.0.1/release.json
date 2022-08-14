@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "35+/iNvq9Lypcvf2Iq7CY2@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "ikunbg",
+            "rect": {
+                "x": 1,
+                "y": 1,
+                "width": 607,
+                "height": 378
+            },
+            "offset": {
+                "x": 0.5,
+                "y": -0.5
+            },
+            "originalSize": {
+                "width": 608,
+                "height": 379
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "packable": true
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

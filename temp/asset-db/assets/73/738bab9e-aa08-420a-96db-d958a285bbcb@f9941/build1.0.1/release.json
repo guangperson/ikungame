@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "73i6ueqghCCpbb2ViihbvL@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "topbackground",
+            "rect": {
+                "x": 1,
+                "y": 0,
+                "width": 607,
+                "height": 148
+            },
+            "offset": {
+                "x": 0.5,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 608,
+                "height": 148
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "packable": true
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]
