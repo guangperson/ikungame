@@ -24,7 +24,7 @@
       },
       "timestamp": 1660459998836
     },
-    "cc9934125a6bbc2807b4ebcf17d46d73e326c99b": {
+    "fecc58c22ae5401093b50796289532c6718ac099": {
       "imports": {
         "cc": {
           "resolved": {
@@ -34,7 +34,7 @@
           "messages": []
         }
       },
-      "timestamp": 1660463454567
+      "timestamp": 1660483337877
     },
     "909f786ffe128f06f5aa1b4e1e3fbbd65262915e": {
       "imports": {
@@ -172,14 +172,14 @@
           "messages": []
         }
       },
-      "timestamp": 1660480848328
+      "timestamp": 1660564500723
     },
     "6cea9118b313aa76b67e6fd6577a4a82aae4c9d4": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
             "type": "chunk",
-            "id": "cc9934125a6bbc2807b4ebcf17d46d73e326c99b"
+            "id": "fecc58c22ae5401093b50796289532c6718ac099"
           },
           "messages": []
         },
@@ -191,13 +191,13 @@
           "messages": []
         }
       },
-      "timestamp": 1660480848346
+      "timestamp": 1660564500741
     }
   },
   "entries": {
     "cce:/internal/x/cc": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e",
     "cce:/internal/x/prerequisite-imports": "6cea9118b313aa76b67e6fd6577a4a82aae4c9d4",
-    "file:///D:/game/iKunGame/assets/script/main.ts": "cc9934125a6bbc2807b4ebcf17d46d73e326c99b",
+    "file:///D:/game/iKunGame/assets/script/main.ts": "fecc58c22ae5401093b50796289532c6718ac099",
     "file:///D:/game/iKunGame/assets/script/utils/data.ts": "99c1cd29ada4c3423abb3a1d68345ba8bcc0aaa9"
   }
 }

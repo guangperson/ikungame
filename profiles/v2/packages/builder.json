@@ -4,7 +4,7 @@
     "level": 1
   },
   "common": {
-    "outputName": "android",
+    "outputName": "android2gai",
     "mainBundleCompressionType": "none",
     "platform": "android",
     "md5Cache": false,
@@ -14,11 +14,59 @@
   },
   "BuildTaskManager": {
     "taskMap": {
-      "1660480882808": {
-        "id": "1660480882808",
-        "progress": 0.965,
-        "state": "processing",
-        "message": "native:(make) start...",
+      "1660484048921": {
+        "id": "1660484048921",
+        "progress": 1,
+        "state": "success",
+        "message": "2022-8-14 21:35 Build success in 70873 ms!",
+        "options": {
+          "name": "iKunGame",
+          "platform": "web-desktop",
+          "buildPath": "project://../../gameWork/dabao",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": true,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "none",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": true,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "2c84e0b0-7e15-493b-bbb9-6dc8eaa910da",
+          "scenes": [
+            {
+              "url": "db://assets/scences/scene.scene",
+              "uuid": "2c84e0b0-7e15-493b-bbb9-6dc8eaa910da",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-desktop",
+          "packages": {
+            "web-desktop": {
+              "resolution": {
+                "designWidth": 1280,
+                "designHeight": 960
+              },
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "6a2275",
+              "services": []
+            }
+          }
+        },
+        "time": "2022-8-14 21:34",
+        "dirty": false
+      },
+      "1660487224291": {
+        "id": "1660487224291",
+        "progress": 1,
+        "state": "failure",
+        "message": "2022-8-14 22:31 run package D:\\gameWork\\dabao\\android failed!",
         "options": {
           "name": "iKunGame",
           "platform": "android",
@@ -52,12 +100,9 @@
                 "landscapeRight": true,
                 "landscapeLeft": true
               },
-              "apiLevel": "android-28",
+              "apiLevel": "android-33",
               "appABIs": [
-                "x86",
-                "arm64-v8a",
-                "x86_64",
-                "armeabi-v7a"
+                "arm64-v8a"
               ],
               "useDebugKeystore": true,
               "keystorePath": "",
@@ -85,14 +130,176 @@
                 "asyncFunctions": true
               },
               "encrypted": false,
-              "xxteaKey": "ccoD6qkydBxKMbE3",
+              "xxteaKey": "f1pm521QFKFbSlFu",
               "compressZip": false,
               "makeAfterBuild": true,
               "JobSystem": "none"
             }
           }
         },
-        "time": "2022-8-14 20:41",
+        "time": "2022-8-14 22:27",
+        "dirty": false
+      },
+      "1660488582534": {
+        "id": "1660488582534",
+        "progress": 0.965,
+        "state": "failure",
+        "message": "native:(make) start...",
+        "options": {
+          "name": "iKunGame",
+          "platform": "android",
+          "buildPath": "project://../../gameWork/dabao",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": true,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "none",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": true,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "2c84e0b0-7e15-493b-bbb9-6dc8eaa910da",
+          "scenes": [
+            {
+              "url": "db://assets/scences/scene.scene",
+              "uuid": "2c84e0b0-7e15-493b-bbb9-6dc8eaa910da",
+              "inBundle": false
+            }
+          ],
+          "outputName": "android-001",
+          "packages": {
+            "android": {
+              "packageName": "com.ikun",
+              "orientation": {
+                "portrait": false,
+                "upsideDown": false,
+                "landscapeRight": true,
+                "landscapeLeft": true
+              },
+              "apiLevel": "android-33",
+              "appABIs": [
+                "arm64-v8a",
+                "x86_64",
+                "x86",
+                "armeabi-v7a"
+              ],
+              "useDebugKeystore": true,
+              "keystorePath": "",
+              "keystorePassword": "",
+              "keystoreAlias": "",
+              "keystoreAliasPassword": "",
+              "appBundle": false,
+              "androidInstant": false,
+              "remoteUrl": "",
+              "sdkPath": "",
+              "ndkPath": "",
+              "renderBackEnd": {
+                "vulkan": false,
+                "gles3": true,
+                "gles2": true
+              },
+              "swappy": false
+            },
+            "cocos-service": {
+              "configID": "6a2275",
+              "services": []
+            },
+            "native": {
+              "polyfills": {
+                "asyncFunctions": true
+              },
+              "encrypted": false,
+              "xxteaKey": "f1pm521QFKFbSlFu",
+              "compressZip": false,
+              "makeAfterBuild": true,
+              "JobSystem": "none"
+            }
+          }
+        },
+        "time": "2022-8-14 22:49",
+        "dirty": false
+      },
+      "1660488679675": {
+        "id": "1660488679675",
+        "progress": 1,
+        "state": "success",
+        "message": "2022-8-14 22:51 Build success in 8415 ms!",
+        "options": {
+          "name": "iKunGame",
+          "platform": "android",
+          "buildPath": "project://../../gameWork/dabao",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": true,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "none",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": true,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "2c84e0b0-7e15-493b-bbb9-6dc8eaa910da",
+          "scenes": [
+            {
+              "url": "db://assets/scences/scene.scene",
+              "uuid": "2c84e0b0-7e15-493b-bbb9-6dc8eaa910da",
+              "inBundle": false
+            }
+          ],
+          "outputName": "android2gai",
+          "packages": {
+            "android": {
+              "packageName": "com.ikun",
+              "orientation": {
+                "portrait": false,
+                "upsideDown": false,
+                "landscapeRight": true,
+                "landscapeLeft": true
+              },
+              "apiLevel": "android-33",
+              "appABIs": [
+                "arm64-v8a",
+                "x86_64",
+                "x86",
+                "armeabi-v7a"
+              ],
+              "useDebugKeystore": true,
+              "keystorePath": "",
+              "keystorePassword": "",
+              "keystoreAlias": "",
+              "keystoreAliasPassword": "",
+              "appBundle": false,
+              "androidInstant": false,
+              "remoteUrl": "",
+              "sdkPath": "",
+              "ndkPath": "",
+              "renderBackEnd": {
+                "vulkan": false,
+                "gles3": true,
+                "gles2": true
+              },
+              "swappy": false
+            },
+            "cocos-service": {
+              "configID": "6a2275",
+              "services": []
+            },
+            "native": {
+              "polyfills": {
+                "asyncFunctions": true
+              },
+              "encrypted": false,
+              "xxteaKey": "c8h7saqU9CJKxV3F",
+              "compressZip": false,
+              "makeAfterBuild": false,
+              "JobSystem": "none"
+            }
+          }
+        },
+        "time": "2022-8-14 22:51",
         "dirty": false
       }
     }

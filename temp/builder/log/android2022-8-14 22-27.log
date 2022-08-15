@@ -1,0 +1,1327 @@
+2022-8-14 22:27-debug: =================================== Build Task (android) Start ================================
+2022-8-14 22:27-debug: cocos-service:(onBeforeBuild) start...0%
+2022-8-14 22:27-debug: Build with Cocos Creator 3.5.2
+2022-8-14 22:27-debug: // ---- cocos-service:(onBeforeBuild) ----
+2022-8-14 22:27-debug: Start build task, options:{"name":"iKunGame","platform":"android","buildPath":"project://../../gameWork/dabao","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":true,"replaceSplashScreen":false,"mainBundleCompressionType":"none","mainBundleIsRemote":false,"mergeStartScene":false,"experimentalEraseModules":true,"compressTexture":true,"packAutoAtlas":true,"startScene":"2c84e0b0-7e15-493b-bbb9-6dc8eaa910da","scenes":[{"url":"db://assets/scences/scene.scene","uuid":"2c84e0b0-7e15-493b-bbb9-6dc8eaa910da","inBundle":false}],"outputName":"android","packages":{"android":{"packageName":"com.ikun","orientation":{"portrait":false,"upsideDown":false,"landscapeRight":true,"landscapeLeft":true},"apiLevel":"android-33","appABIs":["arm64-v8a"],"useDebugKeystore":true,"keystorePath":"","keystorePassword":"","keystoreAlias":"","keystoreAliasPassword":"","appBundle":false,"androidInstant":false,"remoteUrl":"","sdkPath":"","ndkPath":"","renderBackEnd":{"vulkan":false,"gles3":true,"gles2":false},"swappy":false},"cocos-service":{"configID":"6a2275","services":[]},"native":{"polyfills":{"asyncFunctions":true},"encrypted":false,"xxteaKey":"f1pm521QFKFbSlFu","compressZip":false,"makeAfterBuild":true,"JobSystem":"none"}}}
+2022-8-14 22:27-debug: Process: heapTotal 205.60MB heapUsed 194.43MB rss 467.10MB
+2022-8-14 22:27-debug: // ---- cocos-service:(onBeforeBuild) success ----
+2022-8-14 22:27-debug: Query all assets info in project
+2022-8-14 22:27-debug: cocos-service:(onBeforeBuild)3%
+2022-8-14 22:27-debug: init custom config: keepNodeUuid: false, useCache: true
+2022-8-14 22:27-debug: BuildAssetLibrary query-assets with assets 292
+2022-8-14 22:27-debug: BuildAssetLibrary initialized with asset 393!
+2022-8-14 22:27-debug:   Number of other assets: 381
+2022-8-14 22:27-debug:   Number of all scripts: 2
+2022-8-14 22:27-debug:   Number of all scenes: 1
+2022-8-14 22:27-debug: native:(onAfterInit) start...3%
+2022-8-14 22:27-debug: Process: heapTotal 206.34MB heapUsed 192.92MB rss 468.11MB
+2022-8-14 22:27-debug: // ---- native:(onAfterInit) ----
+2022-8-14 22:27-debug: Native engine root:D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\resources\3d\engine\native
+2022-8-14 22:27-debug: // ---- native:(onAfterInit) success ----
+2022-8-14 22:27-debug: native:(onAfterInit)5%
+2022-8-14 22:27-debug: // ---- android:(onAfterInit) ----
+2022-8-14 22:27-debug: android:(onAfterInit) start...5%
+2022-8-14 22:27-debug: Process: heapTotal 223.27MB heapUsed 198.12MB rss 476.11MB
+2022-8-14 22:27-debug: // ---- android:(onAfterInit) success ----
+2022-8-14 22:27-debug: android:(onAfterInit)8%
+2022-8-14 22:27-debug: 加载刷新项目脚本 start8%
+2022-8-14 22:27-log: // ---- 加载刷新项目脚本 ----
+2022-8-14 22:27-debug: Process: heapTotal 223.27MB heapUsed 198.18MB rss 476.09MB
+2022-8-14 22:27-debug: reload all scripts.
+2022-8-14 22:27-debug: Incremental keys: 
+2022-8-14 22:27-debug: Set detail map pack:///resolution-detail-map.json: {}
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "pack:///chunks/06/06905a76530cf57ee019d9d8bcfb507c2d037fd3.js" loaded.
+2022-8-14 22:27-debug: Invalidating 'pack:///chunks/06/06905a76530cf57ee019d9d8bcfb507c2d037fd3.js'
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "pack:///chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "pack:///chunks/06/06905a76530cf57ee019d9d8bcfb507c2d037fd3.js" loaded.
+2022-8-14 22:27-debug: [[Executor]] Register main
+2022-8-14 22:27-debug: [[Executor]] Module "pack:///chunks/4f/4f172bf473fd1c2af22dc077d043f55539f0c2e9.js" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "pack:///chunks/99/99c1cd29ada4c3423abb3a1d68345ba8bcc0aaa9.js" loaded.
+2022-8-14 22:27-debug: [[Executor]] Module "pack:///chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js" loaded.
+2022-8-14 22:27-debug: 查询 Asset Bundle start9%
+2022-8-14 22:27-debug: 加载刷新项目脚本 √9%
+2022-8-14 22:27-debug: Process: heapTotal 223.27MB heapUsed 198.11MB rss 476.53MB
+2022-8-14 22:27-log: // ---- 查询 Asset Bundle ----
+2022-8-14 22:27-debug: 查询 Asset Bundle √10%
+2022-8-14 22:27-debug: 查询使用的资源以及资源包配置 start10%
+2022-8-14 22:27-log: // ---- 查询使用的资源以及资源包配置 ----
+2022-8-14 22:27-debug: Process: heapTotal 223.27MB heapUsed 198.16MB rss 476.54MB
+2022-8-14 22:27-debug: Query preload assets from cc.config.json: 
+2022-8-14 22:27-debug: Number of scenes: 1
+2022-8-14 22:27-debug: Number of assets: 45
+2022-8-14 22:27-debug: Number of asset bundle: 2
+2022-8-14 22:27-debug: 查询使用的资源以及资源包配置 √11%
+2022-8-14 22:27-debug: Process: heapTotal 227.27MB heapUsed 198.71MB rss 477.58MB
+2022-8-14 22:27-debug: sort script group...
+2022-8-14 22:27-log: // ---- 整理脚本分组与脚本数据 ----
+2022-8-14 22:27-debug: 整理脚本分组与脚本数据 start11%
+2022-8-14 22:27-debug: 整理纹理压缩任务 start13%
+2022-8-14 22:27-debug: 整理脚本分组与脚本数据 √13%
+2022-8-14 22:27-debug: Process: heapTotal 227.27MB heapUsed 198.73MB rss 477.58MB
+2022-8-14 22:27-log: // ---- 整理纹理压缩任务 ----
+2022-8-14 22:27-debug: Number of image-compress task: 0
+2022-8-14 22:27-debug: 整理纹理压缩任务 √14%
+2022-8-14 22:27-debug: builder.tasks.sort_json 字段未在编辑器多语言内定义
+2022-8-14 22:27-debug: Process: heapTotal 227.27MB heapUsed 198.88MB rss 477.57MB
+2022-8-14 22:27-debug: builder.tasks.sort_json start14%
+2022-8-14 22:27-log: // ---- builder.tasks.sort_json ----
+2022-8-14 22:27-debug: 整理合并压缩 Texture2D 的 JSON 数据 start15%
+2022-8-14 22:27-log: // ---- 整理合并压缩 Texture2D 的 JSON 数据 ----
+2022-8-14 22:27-debug: Number of json group: 5
+2022-8-14 22:27-debug: Process: heapTotal 227.27MB heapUsed 198.93MB rss 477.57MB
+2022-8-14 22:27-debug:  start16%
+2022-8-14 22:27-debug: builder.tasks.sort_json √15%
+2022-8-14 22:27-debug: Process: heapTotal 227.27MB heapUsed 198.96MB rss 477.59MB
+2022-8-14 22:27-debug: 整理合并压缩 Texture2D 的 JSON 数据 √16%
+2022-8-14 22:27-debug:  √18%
+2022-8-14 22:27-log: // ----  ----
+2022-8-14 22:27-debug: // ---- native:(onBeforeBuildAssets) ----
+2022-8-14 22:27-debug: Process: heapTotal 227.27MB heapUsed 198.98MB rss 477.60MB
+2022-8-14 22:27-debug: native:(onBeforeBuildAssets)20%
+2022-8-14 22:27-debug: native:(onBeforeBuildAssets) start...18%
+2022-8-14 22:27-log: // ----  ----
+2022-8-14 22:27-debug: // ---- native:(onBeforeBuildAssets) success ----
+2022-8-14 22:27-debug: Process: heapTotal 227.27MB heapUsed 199.01MB rss 477.60MB
+2022-8-14 22:27-debug:  start20%
+2022-8-14 22:27-debug: Caught exception during build core-js: WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
+ - configuration.entry should be an non-empty array.
+   -> A non-empty array of non-empty strings
+This may indicates the core-js polyfill is not necessary. See https://github.com/zloirock/core-js/issues/822
+2022-8-14 22:27-debug: 打包脚本20%
+2022-8-14 22:27-debug: Process: heapTotal 238.83MB heapUsed 209.49MB rss 489.16MB
+2022-8-14 22:27-debug: Copy externalScripts success!
+2022-8-14 22:27-debug: 打包脚本√20%
+2022-8-14 22:27-debug: 构建引擎20%
+2022-8-14 22:27-debug: Process: heapTotal 235.50MB heapUsed 213.86MB rss 498.88MB
+2022-8-14 22:27-debug: Use cache engine: {link(C:\Users\XIAOKA~1\AppData\Local\Temp\CocosCreator\3.5.2\builder\engine\75ce5d9a6b64316fa728d49744429957)}
+2022-8-14 22:27-debug: {"debug":false,"sourceMaps":true,"includeModules":["2d","animation","audio","base","dragon-bones","gfx-webgl","gfx-webgl2","intersection-2d","marionette","particle-2d","physics-2d-box2d","profiler","skeletal-animation","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.5.2","platform":"NATIVE","md5Map":[],"engineName":"src/cocos-js","useCache":true,"targets":"chrome 80","entry":"D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine"}
+2022-8-14 22:27-debug: 构建引擎√20%
+2022-8-14 22:27-debug:  √27%
+2022-8-14 22:27-debug: 构建自动图集 start27%
+2022-8-14 22:27-debug: Process: heapTotal 235.50MB heapUsed 216.44MB rss 499.95MB
+2022-8-14 22:27-debug: builder.tasks.build_img 字段未在编辑器多语言内定义
+2022-8-14 22:27-debug: 构建自动图集 √33%
+2022-8-14 22:27-log: // ---- 构建自动图集 ----
+2022-8-14 22:27-debug: Process: heapTotal 235.50MB heapUsed 216.47MB rss 499.96MB
+2022-8-14 22:27-log: // ---- builder.tasks.build_img ----
+2022-8-14 22:27-debug: 将资源拷贝到指定位置 start40%
+2022-8-14 22:27-log: // ---- 将资源拷贝到指定位置 ----
+2022-8-14 22:27-debug: builder.tasks.build_img start33%
+2022-8-14 22:27-debug: Process: heapTotal 235.50MB heapUsed 216.49MB rss 499.97MB
+2022-8-14 22:27-debug: builder.tasks.build_img √40%
+2022-8-14 22:27-debug: Asset Bundle(main) handle assets: 29
+2022-8-14 22:27-debug: Asset Bundle(assetsResours) handle assets: 34
+2022-8-14 22:27-debug: 将资源拷贝到指定位置 √47%
+2022-8-14 22:27-debug: builder.tasks.build_json 字段未在编辑器多语言内定义
+2022-8-14 22:27-log: // ---- builder.tasks.build_json ----
+2022-8-14 22:27-debug: builder.tasks.build_json start47%
+2022-8-14 22:27-debug: Process: heapTotal 235.50MB heapUsed 217.07MB rss 499.77MB
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_2.mp3)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_4.mp3)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/kunkun.png)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_6.mp3)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/ikunbutton.png)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/biankuang.png)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_1.mp3)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/duihua.png)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_5.mp3)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_3.mp3)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/downgg.png)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/ikunbg.png)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/topbackground.png)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/bianhuan.png)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/beij.png)})
+2022-8-14 22:27-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/json/text.json)})
+2022-8-14 22:27-debug: builder.tasks.build_json √53%
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 215.59MB rss 500.45MB
+2022-8-14 22:27-debug: 压缩 Zip Bundle √60%
+2022-8-14 22:27-log: // ---- 压缩 Zip Bundle ----
+2022-8-14 22:27-debug: native:(onAfterBuildAssets) start...60%
+2022-8-14 22:27-debug: // ---- native:(onAfterBuildAssets) ----
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 215.61MB rss 500.46MB
+2022-8-14 22:27-debug: 压缩 Zip Bundle start53%
+2022-8-14 22:27-log: [plugin New]: running ...
+2022-8-14 22:27-log: update settings.properties
+2022-8-14 22:27-log: AndroidAPI level 33
+2022-8-14 22:27-log: android instant not configured
+2022-8-14 22:27-debug: generateCMakeConfig, {"CC_USE_GLES3":"set(CC_USE_GLES3 ON)","CC_USE_GLES2":"set(CC_USE_GLES2 OFF)","USE_SERVER_MODE":"set(USE_SERVER_MODE OFF)","NET_MODE":"set(NET_MODE 0)","XXTEAKEY":"","CC_ENABLE_SWAPPY":"set(CC_ENABLE_SWAPPY OFF)","APP_NAME":"set(APP_NAME iKunGame)","COCOS_X_PATH":"set(COCOS_X_PATH \"D:/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native\")","USE_JOB_SYSTEM_TASKFLOW":"set(USE_JOB_SYSTEM_TASKFLOW OFF)","USE_JOB_SYSTEM_TBB":"set(USE_JOB_SYSTEM_TBB OFF)","CC_USE_VULKAN":"set(CC_USE_VULKAN OFF)","USE_PHYSICS_PHYSX":"set(USE_PHYSICS_PHYSX OFF)","USE_AUDIO":"set(USE_AUDIO ON)","USE_VIDEO":"set(USE_VIDEO ON)","USE_WEBVIEW":"set(USE_WEBVIEW ON)","USE_SPINE":"set(USE_SPINE ON)","USE_DRAGONBONES":"set(USE_DRAGONBONES ON)"}
+2022-8-14 22:27-log:   [plugin New]: done!
+2022-8-14 22:27-log: update gradle.properties
+2022-8-14 22:27-debug: native:(onAfterBuildAssets)63%
+2022-8-14 22:27-debug: 给所有的资源加上 MD5 后缀 start63%
+2022-8-14 22:27-log: // ---- 给所有的资源加上 MD5 后缀 ----
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 216.56MB rss 500.84MB
+2022-8-14 22:27-debug: 初始化 settings.json 与 config.json start73%
+2022-8-14 22:27-debug: 给所有的资源加上 MD5 后缀 √73%
+2022-8-14 22:27-log: // ---- 初始化 settings.json 与 config.json ----
+2022-8-14 22:27-debug: // ---- native:(onAfterBuildAssets) success ----
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 216.58MB rss 500.84MB
+2022-8-14 22:27-debug: tasks.settings.macro 字段未在编辑器多语言内定义
+2022-8-14 22:27-debug: 初始化 settings.json 与 config.json √73%
+2022-8-14 22:27-log: // ---- tasks.settings.macro ----
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 216.61MB rss 500.84MB
+2022-8-14 22:27-debug: tasks.settings.macro start73%
+2022-8-14 22:27-debug: tasks.settings.macro √74%
+2022-8-14 22:27-debug: 使用缓存 settings.json start74%
+2022-8-14 22:27-log: // ---- 使用缓存 settings.json ----
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 216.67MB rss 500.85MB
+2022-8-14 22:27-debug: 使用缓存 settings.json √74%
+2022-8-14 22:27-debug: custom joint texture layouts start74%
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 216.74MB rss 500.88MB
+2022-8-14 22:27-log: // ---- custom joint texture layouts ----
+2022-8-14 22:27-debug: custom joint texture layouts √75%
+2022-8-14 22:27-debug: custom joint physics start75%
+2022-8-14 22:27-log: // ---- custom joint physics ----
+2022-8-14 22:27-debug: 填充脚本数据到 settings.json start75%
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 216.77MB rss 500.89MB
+2022-8-14 22:27-log: // ---- 填充脚本数据到 settings.json ----
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 216.79MB rss 500.89MB
+2022-8-14 22:27-debug: 填充场景数据到 settings.json start76%
+2022-8-14 22:27-debug: 填充脚本数据到 settings.json √76%
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 216.81MB rss 500.89MB
+2022-8-14 22:27-debug: 填充场景数据到 settings.json √76%
+2022-8-14 22:27-log: // ---- 填充场景数据到 settings.json ----
+2022-8-14 22:27-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start76%
+2022-8-14 22:27-log: // ---- 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2022-8-14 22:27-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 √77%
+2022-8-14 22:27-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start77%
+2022-8-14 22:27-log: // ---- 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 216.83MB rss 500.89MB
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 216.87MB rss 500.90MB
+2022-8-14 22:27-debug: custom joint physics √75%
+2022-8-14 22:27-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json √77%
+2022-8-14 22:27-debug: options.md5Cache is false.
+2022-8-14 22:27-debug: cocos-service:(onBeforeCompressSettings) start...77%
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 216.90MB rss 500.91MB
+2022-8-14 22:27-debug: // ---- cocos-service:(onBeforeCompressSettings) ----
+2022-8-14 22:27-debug: // ---- cocos-service:(onBeforeCompressSettings) success ----
+2022-8-14 22:27-debug: cocos-service:(onBeforeCompressSettings)80%
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 217.01MB rss 500.91MB
+2022-8-14 22:27-debug:  start80%
+2022-8-14 22:27-log: // ----  ----
+2022-8-14 22:27-debug:  √81%
+2022-8-14 22:27-debug: 压缩 config.json 与 settings.json start81%
+2022-8-14 22:27-log: // ---- 压缩 config.json 与 settings.json ----
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 217.04MB rss 500.92MB
+2022-8-14 22:27-debug: 压缩 config.json 与 settings.json √82%
+2022-8-14 22:27-debug: 保存 config.json start82%
+2022-8-14 22:27-log: // ---- 保存 config.json ----
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 217.12MB rss 500.89MB
+2022-8-14 22:27-debug: 保存 config.json √83%
+2022-8-14 22:27-debug: 保存 settings.json start83%
+2022-8-14 22:27-log: // ---- 保存 settings.json ----
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 217.15MB rss 500.89MB
+2022-8-14 22:27-debug: 保存 settings.json √84%
+2022-8-14 22:27-debug: 整理静态模板文件 start84%
+2022-8-14 22:27-log: // ---- 整理静态模板文件 ----
+2022-8-14 22:27-debug: Process: heapTotal 236.08MB heapUsed 217.27MB rss 500.90MB
+2022-8-14 22:27-debug: 整理静态模板文件 √85%
+2022-8-14 22:27-debug: cocos-service:(onAfterCompressSettings) start...85%
+2022-8-14 22:27-debug: Process: heapTotal 237.58MB heapUsed 214.29MB rss 502.47MB
+2022-8-14 22:27-debug: // ---- cocos-service:(onAfterCompressSettings) ----
+2022-8-14 22:27-debug: // ---- cocos-service:(onAfterCompressSettings) success ----
+2022-8-14 22:27-debug: native:(onAfterBuild) start...87%
+2022-8-14 22:27-debug: cocos-service:(onAfterCompressSettings)87%
+2022-8-14 22:27-debug: Process: heapTotal 237.58MB heapUsed 214.96MB rss 502.09MB
+2022-8-14 22:27-debug: // ---- native:(onAfterBuild) ----
+2022-8-14 22:27-log: [plugin Generate]: running ...
+2022-8-14 22:27-log: generate android
+2022-8-14 22:27-log:   [plugin Generate]: done!
+2022-8-14 22:27-debug: // ---- native:(onAfterBuild) success ----
+2022-8-14 22:27-debug: native:(onAfterBuild)90%
+2022-8-14 22:27-debug: // ---- cocos-service:(onAfterBuild) ----
+2022-8-14 22:27-debug: Process: heapTotal 237.58MB heapUsed 215.23MB rss 501.89MB
+2022-8-14 22:27-debug: cocos-service:(onAfterBuild) start...90%
+2022-8-14 22:27-debug: // ---- cocos-service:(onAfterBuild) success ----
+2022-8-14 22:27-debug: cocos-service:(onAfterBuild)93%
+2022-8-14 22:27-debug: Use build file cocos.compile.config.json in root(D:\gameWork\dabao\android)
+2022-8-14 22:27-debug: native:(make) start...97%
+2022-8-14 22:27-debug: init options success95%
+2022-8-14 22:27-debug: // ---- native:(make) ----
+2022-8-14 22:27-debug: init options success
+2022-8-14 22:27-debug: native:(make) start...
+2022-8-14 22:27-log:   [plugin Generate]: done!
+2022-8-14 22:27-log: [plugin Generate]: running ...
+2022-8-14 22:27-log: [runCmd]: D:\gameWork\dabao\android\proj\gradlew.bat iKunGame:assembleRelease
+2022-8-14 22:27-log: generate android
+2022-8-14 22:27-log: [plugin Compile]: running ...
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] Starting a Gradle Daemon, 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] File C:\Users\XIAO KA\.android\repositories.cfg could not be loaded.
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] Checking the license for package Android SDK Platform 33 in D:\sdk\licenses
+License for package Android SDK Platform 33 accepted.
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] Preparing "Install Android SDK Platform 33 (revision: 2)".
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] "Install Android SDK Platform 33 (revision: 2)" ready.
+Installing Android SDK Platform 33 in D:\sdk\platforms\android-33
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] "Install Android SDK Platform 33 (revision: 2)" complete.
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] "Install Android SDK Platform 33 (revision: 2)" finished.
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:preBuild UP-TO-DATE
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:extractProguardFiles
+> Task :iKunGame:preReleaseBuild
+> Task :libcocos:preBuild UP-TO-DATE
+> Task :libcocos:preReleaseBuild UP-TO-DATE
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libcocos:compileReleaseAidl NO-SOURCE
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libservice:preBuild UP-TO-DATE
+> Task :libservice:preReleaseBuild UP-TO-DATE
+> Task :libservice:compileReleaseAidl NO-SOURCE
+> Task :iKunGame:compileReleaseAidl NO-SOURCE
+> Task :libcocos:packageReleaseRenderscript NO-SOURCE
+> Task :libservice:packageReleaseRenderscript NO-SOURCE
+> Task :iKunGame:compileReleaseRenderscript NO-SOURCE
+> Task :iKunGame:generateReleaseBuildConfig
+> Task :iKunGame:javaPreCompileRelease
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:generateReleaseResValues
+> Task :iKunGame:generateReleaseResources
+> Task :libcocos:writeReleaseAarMetadata
+> Task :libservice:writeReleaseAarMetadata
+> Task :libcocos:compileReleaseRenderscript NO-SOURCE
+> Task :libcocos:generateReleaseResValues
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libcocos:generateReleaseResources
+> Task :libcocos:packageReleaseResources
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libservice:compileReleaseRenderscript NO-SOURCE
+> Task :libservice:generateReleaseResValues
+> Task :libservice:generateReleaseResources
+> Task :libservice:packageReleaseResources
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:createReleaseCompatibleScreenManifests
+> Task :iKunGame:extractDeepLinksRelease
+> Task :libcocos:extractDeepLinksRelease
+> Task :libservice:extractDeepLinksRelease
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libservice:processReleaseManifest
+> Task :libcocos:processReleaseManifest
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:processReleaseMainManifest
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libcocos:parseReleaseLocalResources
+> Task :iKunGame:mergeReleaseResources
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:processReleaseManifest
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libcocos:generateReleaseBuildConfig
+
+2022-8-14 22:27-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libcocos:javaPreCompileRelease
+> Task :libservice:parseReleaseLocalResources
+> Task :libservice:generateReleaseBuildConfig
+> Task :libservice:javaPreCompileRelease
+> Task :libcocos:generateReleaseRFile
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:generateJsonModelRelease
+> Task :libcocos:mergeReleaseJniLibFolders
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libcocos:mergeReleaseNativeLibs NO-SOURCE
+> Task :libcocos:stripReleaseDebugSymbols NO-SOURCE
+> Task :libcocos:copyReleaseJniLibsProjectOnly
+> Task :libservice:mergeReleaseJniLibFolders
+> Task :libservice:mergeReleaseNativeLibs NO-SOURCE
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libservice:generateReleaseRFile
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+> Task :libcocos:compileReleaseJavaWithJavac
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat - error] ע: ĳЩ�����ļ�ʹ�û򸲸����ѹ�ʱ�� API��
+ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+ע: D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\resources\3d\engine\native\cocos\platform\android\java\src\com\cocos\lib\CocosReflectionHelper.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+> Task :libservice:stripReleaseDebugSymbols NO-SOURCE
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libservice:copyReleaseJniLibsProjectOnly
+> Task :libcocos:bundleLibCompileToJarRelease
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+> Task :iKunGame:externalNativeBuildRelease
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] Build cocos_arm64-v8a
+ninja: Entering directory `D:\gameWork\dabao\android\proj\build\cmake\release\arm64-v8a'
+[1/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/interfaces/OSInterfaceManager.cpp.o
+[2/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/StringHandle.cpp.o
+[3/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/etc2.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [4/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/Ref.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [5/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/interfaces/OSInterface.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [6/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/BasePlatform.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [7/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/UniversalPlatform.cpp.o
+[8/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/StringUtil.cpp.o
+
+> Task :iKunGame:processReleaseManifestForPackage
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+> Task :iKunGame:externalNativeBuildRelease
+[9/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/application/ApplicationManager.cpp.o
+[10/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/engine/BaseEngine.cpp.o
+[11/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/Scheduler.cpp.o
+[12/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/ThreadPool.cpp.o
+[13/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/interfaces/modules/ISystem.cpp.o
+[14/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/application/BaseGame.cpp.o
+[15/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/memory/MemTracker.cpp.o
+[16/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/interfaces/modules/Device.cpp.o
+[17/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/android/AndroidPlatform.cpp.o
+[18/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/application/CocosApplication.cpp.o
+[19/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/memory/JeAlloc.cpp.o
+[20/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/memory/NedPooling.cpp.o
+[21/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/memory/AllocatedObj.cpp.o
+[22/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/android/modules/Screen.cpp.o
+[23/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/memory/MemoryHook.cpp.o
+[24/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/memory/Memory.cpp.o
+[25/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/android/modules/System.cpp.o
+[26/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/modules/Vibrator.cpp.o
+[27/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/modules/Battery.cpp.o
+[28/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/modules/Network.cpp.o
+[29/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/modules/Accelerometer.cpp.o
+[30/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/interfaces/modules/canvas/ICanvasRenderingContext2D.cpp.o
+[31/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/modules/CommonSystem.cpp.o
+[32/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/modules/CommonScreen.cpp.o
+[33/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/modules/SystemWindow.cpp.o
+[34/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/modules/CanvasRenderingContext2DDelegate.cpp.o
+[35/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/network/HttpCookie.cpp.o
+[36/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/memory/CallStack.cpp.o
+[37/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/threading/AutoReleasePool.cpp.o
+[38/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/Image.cpp.o
+[39/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/network/Downloader-java.cpp.o
+[40/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/threading/ThreadSafeLinearAllocator.cpp.o
+[41/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/threading/ConditionVariable.cpp.o
+[42/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/interfaces/modules/canvas/CanvasRenderingContext2D.cpp.o
+[43/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/SPIRVUtils.cpp.o
+[44/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/threading/Semaphore.cpp.o
+[45/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/network/HttpClient-java.cpp.o
+[46/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/network/SocketIO.cpp.o
+[47/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/threading/ThreadPool.cpp.o
+[48/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/job-system/job-system-dummy/DummyJobGraph.cpp.o
+[49/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/threading/MessageQueue.cpp.o
+[50/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/job-system/job-system-dummy/DummyJobSystem.cpp.o
+[51/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/network/WebSocket-okhttp.cpp.o
+[52/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/engine/Engine.cpp.o
+[53/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/network/Downloader.cpp.o
+[54/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXObject.cpp.o
+[55/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/network/Uri.cpp.o
+[56/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXFramebuffer.cpp.o
+[57/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXCommandBuffer.cpp.o
+[58/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXDescriptorSet.cpp.o
+[59/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXBuffer.cpp.o
+[60/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXInputAssembler.cpp.o
+[61/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXDef.cpp.o
+[62/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXPipelineState.cpp.o
+[63/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXSwapchain.cpp.o
+[64/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXQueryPool.cpp.o
+[65/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXDevice.cpp.o
+[66/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXRenderPass.cpp.o
+[67/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXPipelineLayout.cpp.o
+[68/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXShader.cpp.o
+[69/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXQueue.cpp.o
+[70/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXDescriptorSetLayout.cpp.o
+[71/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/GFXTexture.cpp.o
+[72/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptyCommandBuffer.cpp.o
+[73/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptyDescriptorSet.cpp.o
+[74/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/states/GFXGeneralBarrier.cpp.o
+[75/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptyDescriptorSetLayout.cpp.o
+[76/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptyBuffer.cpp.o
+[77/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/SwapchainValidator.cpp.o
+[78/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/TextureValidator.cpp.o
+[79/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/states/GFXTextureBarrier.cpp.o
+[80/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/ShaderValidator.cpp.o
+[81/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-base/states/GFXSampler.cpp.o
+[82/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/FramebufferAgent.cpp.o
+[83/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/DeviceAgent.cpp.o
+[84/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/BufferAgent.cpp.o
+[85/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/ValidationUtils.cpp.o
+[86/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/DescriptorSetAgent.cpp.o
+[87/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/DescriptorSetLayoutAgent.cpp.o
+[88/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/SwapchainAgent.cpp.o
+[89/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/InputAssemblerAgent.cpp.o
+[90/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/CommandBufferAgent.cpp.o
+[91/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/RenderPassAgent.cpp.o
+[92/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/QueryPoolAgent.cpp.o
+[93/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/QueueAgent.cpp.o
+[94/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/PipelineStateAgent.cpp.o
+[95/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/PipelineLayoutAgent.cpp.o
+[96/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/ShaderAgent.cpp.o
+[97/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/BufferValidator.cpp.o
+[98/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-agent/TextureAgent.cpp.o
+[99/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/DescriptorSetValidator.cpp.o
+[100/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/FramebufferValidator.cpp.o
+[101/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/CommandBufferValidator.cpp.o
+[102/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/InputAssemblerValidator.cpp.o
+[103/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/QueueValidator.cpp.o
+[104/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/QueryPoolValidator.cpp.o
+[105/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/DescriptorSetLayoutValidator.cpp.o
+[106/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/PipelineLayoutValidator.cpp.o
+[107/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/PipelineStateValidator.cpp.o
+[108/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/RenderPassValidator.cpp.o
+[109/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/extensions/assets-manager/EventAssetsManagerEx.cpp.o
+[110/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/extensions/assets-manager/AsyncTaskPool.cpp.o
+[111/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-validator/DeviceValidator.cpp.o
+[112/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/ui/edit-box/EditBox-android.cpp.o
+[113/506] Building C object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tommyds/tommy.c.o
+[114/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine-creator-support/VertexEffectDelegate.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [115/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/ui/webview/WebViewImpl-android.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [116/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/ui/videoplayer/VideoPlayer-java.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [117/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine-creator-support/spine-cocos2dx.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [118/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine-creator-support/SkeletonDataMgr.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [119/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/animation/Animation.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [120/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine-creator-support/SkeletonRenderer.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [121/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/extensions/assets-manager/Manifest.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [122/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/armature/DeformVertices.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [123/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/animation/BaseTimelineState.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [124/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_spine_manual.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [125/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/animation/WorldClock.cpp.o
+[126/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/extensions/assets-manager/AssetsManagerEx.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [127/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/animation/AnimationState.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [128/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/armature/Armature.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [129/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/armature/Slot.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [130/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/animation/TimelineState.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [131/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/armature/Constraint.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [132/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/geom/Point.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [133/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/model/AnimationConfig.cpp.o
+[134/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/armature/Bone.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [135/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/core/BaseObject.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [136/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/core/DragonBones.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [137/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/armature/TransformObject.cpp.o
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [138/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/geom/Transform.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [139/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/event/EventObject.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [140/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/model/BoundingBoxData.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [141/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/model/DisplayData.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [142/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/model/ConstraintData.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [143/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/model/CanvasData.cpp.o
+[144/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/model/SkinData.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [145/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/model/DragonBonesData.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [146/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/model/ArmatureData.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [147/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/model/AnimationData.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [148/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/model/TextureAtlasData.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [149/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/factory/BaseFactory.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [150/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/model/UserData.cpp.o
+[151/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/parser/BinaryDataParser.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [152/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/parser/DataParser.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [153/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones-creator-support/ArmatureCacheMgr.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [154/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones-creator-support/ArmatureCache.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [155/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones-creator-support/CCArmatureCacheDisplay.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [156/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones-creator-support/CCFactory.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [157/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_classtype.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [158/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_helper.cpp.o
+
+2022-8-14 22:28-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [159/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones-creator-support/CCTextureAtlasData.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [160/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones-creator-support/CCArmatureDisplay.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [161/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones-creator-support/CCSlot.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [162/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/dragonbones/parser/JSONDataParser.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [163/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_cocos_manual.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [164/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_scene_manual.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [165/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_dragonbones_manual.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [166/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_network_manual.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [167/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/event/EventDispatcher.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [168/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_conversions.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [169/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/storage/local-storage/LocalStorage.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [170/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_scene_manual_ext.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [171/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_gfx_manual.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [172/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_normalize.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [173/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_pipeline_manual.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [174/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_websocket.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [175/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_crc.cpp.o
+[176/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_alias_reduction.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [177/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_platform_android.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [178/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_module_register.cpp.o
+[179/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/storage/local-storage/LocalStorage-android.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [180/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_getbits.cpp.o
+[181/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_decode_huff_cw.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [182/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/JavaScriptJavaBridge.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [183/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_decode_header.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [184/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_socketio.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [185/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_get_side_info.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [186/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_framedecoder.cpp.o
+[187/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_get_scale_factors.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [188/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_get_main_data_size.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [189/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_global.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [190/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_dequantize_sample.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [191/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_mpeg2_get_scale_data.cpp.o
+[192/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_mpeg2_get_scale_factors.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [193/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_huffman_decoding.cpp.o
+[194/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_mpeg2_stereo_proc.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [195/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/auto/jsb_spine_auto.cpp.o
+[196/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_imdct_synth.cpp.o
+[197/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_huffman_parsing.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [198/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_dct_6.cpp.o
+[199/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_mdct_6.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [200/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_tables.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [201/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_seek_synch.cpp.o
+[202/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/auto/jsb_dragonbones_auto.cpp.o
+[203/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_poly_phase_synthesis.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [204/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_equalizer.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [205/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_reorder.cpp.o
+[206/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_polyphase_filter_window.cpp.o
+[207/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_stereo_proc.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [208/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_xmlhttprequest.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [209/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_mdct_18.cpp.o
+[210/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_dct_9.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [211/506] Building C object CMakeFiles/vorbisidec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tremolo/Tremolo/bitwise.c.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [212/506] Building CXX object CMakeFiles/pvmp3dec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/pvmp3dec/src/pvmp3_dct_16.cpp.o
+[213/506] Building C object CMakeFiles/vorbisidec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tremolo/Tremolo/dsp.c.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [214/506] Building C object CMakeFiles/vorbisidec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tremolo/Tremolo/floor0.c.o
+D:/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tremolo/Tremolo/floor0.c:61:13: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+  if(a<(-140<<12)) return 0;
+        ~~~~^
+1 warning generated.
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [215/506] Building C object CMakeFiles/vorbisidec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tremolo/Tremolo/codebook.c.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [216/506] Building C object CMakeFiles/vorbisidec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tremolo/Tremolo/floor1.c.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [217/506] Building C object CMakeFiles/vorbisidec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tremolo/Tremolo/floor_lookup.c.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [218/506] Building C object CMakeFiles/vorbisidec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tremolo/Tremolo/info.c.o
+[219/506] Building C object CMakeFiles/vorbisidec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tremolo/Tremolo/misc.c.o
+[220/506] Building C object CMakeFiles/vorbisidec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tremolo/Tremolo/res012.c.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [221/506] Building C object CMakeFiles/vorbisidec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tremolo/Tremolo/framing.c.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [222/506] Building C object CMakeFiles/vorbisidec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tremolo/Tremolo/mapping0.c.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [223/506] Linking CXX static library libpvmp3dec.a
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [224/506] Building C object CMakeFiles/vorbisidec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tremolo/Tremolo/vorbisfile.c.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [225/506] Building C object CMakeFiles/android_platform.dir/D_/sdk/ndk/21.0.6113669/sources/android/cpufeatures/cpu-features.c.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [226/506] Building CXX object CMakeFiles/cocos2d_jni.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/android/jni/JniCocosSurfaceView.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [227/506] Building C object CMakeFiles/vorbisidec.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tremolo/Tremolo/mdct.c.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [228/506] Linking C static library libandroid_platform.a
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [229/506] Building CXX object CMakeFiles/cocos.dir/D_/game/iKunGame/native/engine/common/Classes/Game.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [230/506] Linking C static library libvorbisidec.a
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [231/506] Building CXX object CMakeFiles/cocos2d_jni.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/jni/JniCocosTouchHandler.cpp.o
+[232/506] Building CXX object CMakeFiles/cocos2d_jni.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/jni/JniCocosKeyCodeHandler.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [233/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/AssetFd.cpp.o
+[234/506] Building CXX object CMakeFiles/cocos2d_jni.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/android/jni/JniCocosActivity.cpp.o
+[235/506] Building CXX object CMakeFiles/cocos2d_jni.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/jni/glue/MessagePipe.cpp.o
+[236/506] Building CXX object CMakeFiles/cocos2d_jni.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/jni/JniCocosOrientationHelper.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [237/506] Building CXX object CMakeFiles/cocos2d_jni.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/jni/glue/JniNativeGlue.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [238/506] Building CXX object CMakeFiles/cocos2d_jni.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/jni/JniHelper.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [239/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/AudioDecoder.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [240/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/AudioDecoderMp3.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [241/506] Building CXX object CMakeFiles/cocos2d_jni.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/java/jni/JniImp.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [242/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/AudioDecoderProvider.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [243/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/AudioMixerController.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [244/506] Linking CXX static library libcocos2d_jni.a
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [245/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/AudioDecoderOgg.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [246/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/AudioDecoderWav.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [247/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/AudioDecoderSLES.cpp.o
+[248/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/AudioEngine.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [249/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/AudioResampler.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [250/506] Building C object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/audio_utils/format.c.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [251/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/audio_utils/minifloat.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [252/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/PcmData.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [253/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/PcmBufferProvider.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [254/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/PcmAudioPlayer.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [255/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/AudioResamplerCubic.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [256/506] Building C object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/audio_utils/primitives.c.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [257/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/mp3reader.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [258/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/PcmAudioService.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [259/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/AudioEngine-inl.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [260/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/tinysndfile.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [261/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/AudioPlayerProvider.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [262/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/astc.cpp.o
+[263/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/AutoreleasePool.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [264/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/etc1.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [265/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/unzip/ioapi.cpp.o
+[266/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/base64.cpp.o
+[267/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/utils/Utils.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [268/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/UrlAudioPlayer.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [269/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/Track.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [270/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/xxtea/xxtea.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [271/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/unzip/unzip.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [272/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/unzip/ioapi_mem.cpp.o
+[273/506] Building C object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/ConvertUTF/ConvertUTF.c.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [274/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/ConvertUTF/ConvertUTFWrapper.cpp.o
+[275/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/MurmurHash2/MurmurHash2.cpp.o
+[276/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/audio/android/AudioMixer.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [277/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/math/MathUtil.cpp.o
+[278/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/math/Quaternion.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [279/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/math/Geometry.cpp.o
+[280/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/math/Math.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [281/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/math/Mat3.cpp.o
+[282/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/external/sources/tinyxml2/tinyxml2.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [283/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/math/Vec2.cpp.o
+[284/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/math/Vertex.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [285/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/math/Mat4.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [286/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/Log.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [287/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/android/FileUtils-android.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [288/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/HelperMacros.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [289/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/math/Vec3.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [290/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/math/Vec4.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [291/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/MissingSymbols.cpp.o
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [292/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/Class.cpp.o
+[293/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/debugger/http_parser.cpp.o
+[294/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/ZipUtils.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [295/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/Utils.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [296/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/debugger/env.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [297/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/debugger/SHA1.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [298/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/debugger/node_debug_options.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [299/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/ObjectWrap.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [300/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/config.cpp.o
+[301/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/Object.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [302/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/debugger/util.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [303/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/ScriptEngine.cpp.o
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [304/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/debugger/inspector_agent.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [305/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/debugger/node.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [306/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/RefCounter.cpp.o
+[307/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/debugger/inspector_socket.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [308/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/debugger/inspector_io.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [309/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/Data.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [310/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/HandleObject.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [311/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/Value.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [312/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/csscolorparser.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [313/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/MappingUtils.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [314/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/Timer.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [315/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/State.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [316/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/FileUtils.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [317/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/platform/SAXParser.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [318/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/jswrapper/v8/debugger/inspector_socket_server.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [319/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/UTF8.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [320/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/Value.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [321/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/base/Utils.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [322/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/manual/jsb_global_init.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [323/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptyQueryPool.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [324/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptyDevice.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [325/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/forward/ForwardFlow.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [326/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/SceneCulling.cpp.o
+[327/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptyInputAssembler.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [328/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptyRenderPass.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [329/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/deferred/MainFlow.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [330/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptyPipelineLayout.cpp.o
+[331/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/forward/ForwardPipeline.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [332/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptyQueue.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [333/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptyFramebuffer.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [334/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/deferred/DeferredPipeline.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [335/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptyPipelineState.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [336/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptyTexture.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [337/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptyShader.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [338/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/forward/ForwardStage.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [339/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/deferred/GbufferStage.cpp.o
+[340/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/deferred/LightingStage.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [341/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-empty/EmptySwapchain.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [342/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/InstancedBuffer.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [343/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/Define.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [344/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/BatchedBuffer.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [345/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/RenderInstancedQueue.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [346/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/RenderQueue.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [347/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/PipelineStateManager.cpp.o
+[348/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/GlobalDescriptorSetManager.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [349/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/RenderStage.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [350/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/RenderFlow.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [351/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/RenderBatchedQueue.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [352/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/ClusterLightCulling.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [353/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/PipelineUBO.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [354/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/RenderAdditiveLightQueue.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [355/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/RenderPipeline.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [356/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/PipelineSceneData.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [357/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/helper/DefineMap.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [358/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/PlanarShadowQueue.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [359/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/BaseNode.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [360/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/ShadowMapBatchedQueue.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [361/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/AABB.cpp.o
+
+2022-8-14 22:29-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [362/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/UIPhase.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [363/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/deferred/ReflectionComp.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [364/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/shadow/ShadowFlow.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [365/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/deferred/BloomStage.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [366/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/shadow/ShadowStage.cpp.o
+[367/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/Frustum.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [368/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/GeometryRenderer.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [369/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/DirectionalLight.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [370/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/Sphere.cpp.o
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [371/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/Scene.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [372/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/Define.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [373/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/Light.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [374/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/pipeline/deferred/PostProcessStage.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [375/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/BakedSkinningModel.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [376/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles-common/gles3w.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [377/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/SpotLight.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [378/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles-common/eglw.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [379/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/Model.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [380/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/SkinningModel.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [381/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/SphereLight.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [382/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/Pass.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [383/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles-common/gles2w.cpp.o
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [384/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/Node.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [385/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3CommandBuffer.cpp.o
+[386/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/RenderScene.cpp.o
+[387/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/SubModel.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [388/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3Buffer.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [389/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/scene/Octree.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [390/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3InputAssembler.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [391/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3GPUContext.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [392/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3Framebuffer.cpp.o
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [393/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3DescriptorSet.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [394/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3PipelineLayout.cpp.o
+[395/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3PrimaryCommandBuffer.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [396/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3Queue.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [397/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3Wrangler.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [398/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3PipelineState.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [399/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3DescriptorSetLayout.cpp.o
+[400/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3Device.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [401/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3QueryPool.cpp.o
+[402/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3Commands.cpp.o
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [403/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3RenderPass.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [404/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/frame-graph/VirtualResource.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [405/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/states/GLES3Sampler.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [406/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3Std.cpp.o
+[407/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3Swapchain.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [408/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/states/GLES3GeneralBarrier.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [409/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3Texture.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [410/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/dop/BufferPool.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [411/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/frame-graph/PassInsertPointManager.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [412/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/gfx-gles3/GLES3Shader.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [413/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/frame-graph/PassNodeBuilder.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [414/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/frame-graph/PassNode.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [415/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/core/event/CallbacksInvoker.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [416/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/frame-graph/DevicePassResourceTable.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [417/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/frame-graph/DevicePass.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [418/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/IOBuffer.cpp.o
+[419/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/dop/BufferAllocator.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [420/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/IOTypedArray.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [421/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/auto/jsb_network_auto.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [422/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/dop/jsb_dop.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [423/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/Animation.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [424/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/SharedBufferManager.cpp.o
+[425/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/renderer/frame-graph/FrameGraph.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [426/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/TypedArrayPool.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [427/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/auto/jsb_video_auto.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [428/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/MeshBuffer.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [429/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/auto/jsb_cocos_auto.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [430/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/auto/jsb_webview_auto.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [431/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/auto/jsb_extension_auto.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [432/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/middleware-adapter.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [433/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/AnimationState.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [434/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/AnimationStateData.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [435/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/AtlasAttachmentLoader.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [436/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/Attachment.cpp.o
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+[437/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/auto/jsb_audio_auto.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [438/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/auto/jsb_editor_support_auto.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [439/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/AttachmentLoader.cpp.o
+[440/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/MiddlewareManager.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [441/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/BoneData.cpp.o
+[442/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/AttachmentTimeline.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [443/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/ClippingAttachment.cpp.o
+[444/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/Bone.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [445/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/Atlas.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [446/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/DrawOrderTimeline.cpp.o
+[447/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/CurveTimeline.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [448/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/DeformTimeline.cpp.o
+[449/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/BoundingBoxAttachment.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [450/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/ConstraintData.cpp.o
+[451/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/ColorTimeline.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [452/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/Constraint.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [453/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/Json.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [454/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/EventData.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [455/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/IkConstraint.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [456/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/auto/jsb_pipeline_auto.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [457/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/MathUtil.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [458/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/PathAttachment.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [459/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/Event.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [460/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/IkConstraintTimeline.cpp.o
+[461/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/IkConstraintData.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [462/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/Extension.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [463/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/EventTimeline.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [464/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/PathConstraintMixTimeline.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [465/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/PathConstraintPositionTimeline.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [466/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/MeshAttachment.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [467/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/LinkedMesh.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [468/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/PathConstraint.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [469/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/PathConstraintData.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [470/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/RotateTimeline.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [471/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/RTTI.cpp.o
+[472/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/PathConstraintSpacingTimeline.cpp.o
+[473/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/RegionAttachment.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [474/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/ScaleTimeline.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [475/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/Skeleton.cpp.o
+[476/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/PointAttachment.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [477/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/ShearTimeline.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [478/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/Slot.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [479/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/SkeletonClipping.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [480/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/SlotData.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [481/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/SkeletonBounds.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [482/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/TextureLoader.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [483/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/SkeletonData.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [484/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/Skin.cpp.o
+[485/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/Timeline.cpp.o
+[486/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/TransformConstraintData.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [487/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/TransformConstraintTimeline.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [488/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/TranslateTimeline.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [489/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/SpineObject.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [490/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/SkeletonBinary.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [491/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/SkeletonJson.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [492/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/TransformConstraint.cpp.o
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [493/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/auto/jsb_scene_auto.cpp.o
+[494/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/VertexEffect.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [495/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/TwoColorTimeline.cpp.o
+[496/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/VertexAttachment.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [497/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine-creator-support/AttachmentVertices.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [498/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/Triangulator.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [499/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine/Updatable.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [500/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine-creator-support/SkeletonAnimation.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [501/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine-creator-support/SkeletonCacheAnimation.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [502/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine-creator-support/SkeletonCacheMgr.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [503/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/editor-support/spine-creator-support/SkeletonCache.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [504/506] Building CXX object CMakeFiles/cocos2d.dir/D_/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native/cocos/bindings/auto/jsb_gfx_auto.cpp.o
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [505/506] Linking CXX static library libcocos2d.a
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] [506/506] Linking CXX shared library D:\gameWork\dabao\android\proj\build\iKunGame\intermediates\cmake\release\obj\arm64-v8a\libcocos.so
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libcocos:prepareLintJarForPublish
+> Task :libservice:prepareLintJarForPublish
+> Task :iKunGame:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :iKunGame:mergeReleaseShaders
+> Task :iKunGame:compileReleaseShaders NO-SOURCE
+> Task :iKunGame:generateReleaseAssets UP-TO-DATE
+> Task :libcocos:mergeReleaseShaders
+> Task :libcocos:compileReleaseShaders NO-SOURCE
+> Task :libcocos:generateReleaseAssets UP-TO-DATE
+> Task :libcocos:packageReleaseAssets
+> Task :libservice:mergeReleaseShaders
+> Task :libservice:compileReleaseShaders NO-SOURCE
+> Task :libservice:generateReleaseAssets UP-TO-DATE
+> Task :libservice:packageReleaseAssets
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:mergeReleaseAssets
+> Task :iKunGame:checkReleaseAarMetadata
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libservice:compileReleaseJavaWithJavac
+> Task :libservice:mergeReleaseGeneratedProguardFiles
+> Task :libservice:exportReleaseConsumerProguardFiles
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libcocos:mergeReleaseGeneratedProguardFiles
+> Task :libservice:bundleLibCompileToJarRelease
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libcocos:exportReleaseConsumerProguardFiles
+> Task :iKunGame:processReleaseJavaRes NO-SOURCE
+> Task :libcocos:processReleaseJavaRes NO-SOURCE
+> Task :iKunGame:checkReleaseDuplicateClasses
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] aapt2.exe W 08-14 22:30:54  7904  6448 LoadedArsc.cpp:657] Unknown chunk type '200'.
+
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:processReleaseResources
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+> Task :iKunGame:compileReleaseJavaWithJavac
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat - error] ע: D:\game\iKunGame\native\engine\android\app\src\com\cocos\game\AppActivity.javaʹ�û򸲸����ѹ�ʱ�� API��
+ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:deprecation ���±��롣
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] 
+> Task :iKunGame:compileReleaseSources
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:compressReleaseAssets
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:lintVitalRelease
+> Task :iKunGame:mergeReleaseGeneratedProguardFiles
+> Task :libcocos:bundleLibResRelease NO-SOURCE
+> Task :libservice:processReleaseJavaRes NO-SOURCE
+> Task :libservice:bundleLibResRelease
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat]  NO-SOURCE
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :libservice:bundleLibRuntimeToJarRelease
+> Task :iKunGame:collectReleaseDependencies
+> Task :libcocos:bundleLibRuntimeToJarRelease
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:mergeReleaseJavaResource
+> Task :iKunGame:sdkReleaseDependencyData
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:mergeReleaseJniLibFolders
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:validateSigningRelease
+
+2022-8-14 22:30-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:mergeReleaseNativeLibs
+
+2022-8-14 22:31-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:minifyReleaseWithR8
+
+2022-8-14 22:31-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:stripReleaseDebugSymbols
+> Task :iKunGame:shrinkReleaseRes
+
+2022-8-14 22:31-log: [runCmd D:\gameWork\dabao\android\proj\gradlew.bat] > Task :iKunGame:packageRelease
+> Task :iKunGame:assembleRelease
+
+BUILD SUCCESSFUL in 3m 51s
+69 actionable tasks: 69 executed
+
+2022-8-14 22:31-log:   [plugin Compile]: done!
+2022-8-14 22:31-debug: // ---- native:(make) success ----
+2022-8-14 22:31-debug: native:(make) √100%
+2022-8-14 22:31-debug: build success in 240131 ms!
+2022-8-14 22:31-debug: native:(make) √
+2022-8-14 22:31-debug: Use build file cocos.compile.config.json in root(D:\gameWork\dabao\android)
+2022-8-14 22:31-log: [task:run]: init options success, 10%
+2022-8-14 22:31-debug: native:(run) start...
+2022-8-14 22:31-log: [task:run]: native:(run) start..., 10%
+2022-8-14 22:31-debug: // ---- native:(run) ----
+2022-8-14 22:31-debug: init options success
+2022-8-14 22:31-log: [plugin Run]: running ...
+2022-8-14 22:31-log: [runCmd]: D:\sdk\platform-tools\adb.exe install -r D:\gameWork\dabao\android\proj\build\iKunGame\outputs\apk\release\iKunGame-release.apk
+2022-8-14 22:31-log: [runCmd D:\sdk\platform-tools\adb.exe - error] * daemon not running; starting now at tcp:5037
+
+2022-8-14 22:31-log: [runCmd D:\sdk\platform-tools\adb.exe - error] * daemon started successfully
+
+2022-8-14 22:31-log: [runCmd D:\sdk\platform-tools\adb.exe - error] adb.exe: no devices/emulators found
+
+2022-8-14 22:31-warn: failed to exec D:\sdk\platform-tools\adb.exe install -r D:\gameWork\dabao\android\proj\build\iKunGame\outputs\apk\release\iKunGame-release.apk
+2022-8-14 22:31-error: run package D:\gameWork\dabao\android failed!
+2022-8-14 22:31-log: [task:run]: failed!

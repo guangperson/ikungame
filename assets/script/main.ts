@@ -65,7 +65,7 @@ export class main extends Component {
         let str = e.currentTarget.name;
         let index = str.substr(str.length-1);
         // 暂停上一个
-        this.array[index].pause();
+        // this.array[index].pause();
         // 播放音乐
         this.array[index].play();
         

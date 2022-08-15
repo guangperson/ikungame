@@ -2,7 +2,7 @@
   "imports": {
     "cce:/internal/x/cc": "./chunks/06/06905a76530cf57ee019d9d8bcfb507c2d037fd3.js",
     "cce:/internal/x/prerequisite-imports": "./chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js",
-    "file:///D:/game/iKunGame/assets/script/main.ts": "./chunks/f1/f16515d558df872914ce9bda5996bf45e893d6c5.js",
+    "file:///D:/game/iKunGame/assets/script/main.ts": "./chunks/4f/4f172bf473fd1c2af22dc077d043f55539f0c2e9.js",
     "file:///D:/game/iKunGame/assets/script/utils/data.ts": "./chunks/99/99c1cd29ada4c3423abb3a1d68345ba8bcc0aaa9.js"
   },
   "scopes": {
@@ -32,13 +32,13 @@
       "__unresolved_9": "cce:/internal/x/cc-fu/particle-2d"
     },
     "./chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js": {
-      "__unresolved_0": "./chunks/f1/f16515d558df872914ce9bda5996bf45e893d6c5.js",
+      "__unresolved_0": "./chunks/4f/4f172bf473fd1c2af22dc077d043f55539f0c2e9.js",
       "__unresolved_1": "./chunks/99/99c1cd29ada4c3423abb3a1d68345ba8bcc0aaa9.js"
     },
     "./chunks/99/99c1cd29ada4c3423abb3a1d68345ba8bcc0aaa9.js": {
       "cc": "./chunks/06/06905a76530cf57ee019d9d8bcfb507c2d037fd3.js"
     },
-    "./chunks/f1/f16515d558df872914ce9bda5996bf45e893d6c5.js": {
+    "./chunks/4f/4f172bf473fd1c2af22dc077d043f55539f0c2e9.js": {
       "cc": "./chunks/06/06905a76530cf57ee019d9d8bcfb507c2d037fd3.js"
     }
   }

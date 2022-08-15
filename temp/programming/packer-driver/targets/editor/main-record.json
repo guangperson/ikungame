@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 9656.2415000014,
+      "mTimestamp": 13773.904700000014,
       "chunkId": "06905a76530cf57ee019d9d8bcfb507c2d037fd3",
       "imports": [
         {
@@ -493,7 +493,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 9678.096700001508,
+      "mTimestamp": 13804.91320000001,
       "chunkId": "6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3",
       "imports": [
         {
@@ -545,10 +545,10 @@
     },
     "file:///D:/game/iKunGame/assets/script/main.ts": {
       "mTimestamp": {
-        "mtime": 1660463451105.597,
+        "mtime": 1660483336959.602,
         "uuid": "e3179c8d-697e-41e4-8a0e-b447d9092743"
       },
-      "chunkId": "f16515d558df872914ce9bda5996bf45e893d6c5",
+      "chunkId": "4f172bf473fd1c2af22dc077d043f55539f0c2e9",
       "imports": [
         {
           "value": "cc"

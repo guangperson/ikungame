@@ -1,0 +1,307 @@
+2022-8-14 22:49-debug: =================================== Build Task (android-001) Start ================================
+2022-8-14 22:49-debug: cocos-service:(onBeforeBuild) start...0%
+2022-8-14 22:49-debug: // ---- cocos-service:(onBeforeBuild) ----
+2022-8-14 22:49-debug: Build with Cocos Creator 3.5.2
+2022-8-14 22:49-debug: Start build task, options:{"name":"iKunGame","platform":"android","buildPath":"project://../../gameWork/dabao","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":true,"replaceSplashScreen":false,"mainBundleCompressionType":"none","mainBundleIsRemote":false,"mergeStartScene":false,"experimentalEraseModules":true,"compressTexture":true,"packAutoAtlas":true,"startScene":"2c84e0b0-7e15-493b-bbb9-6dc8eaa910da","scenes":[{"url":"db://assets/scences/scene.scene","uuid":"2c84e0b0-7e15-493b-bbb9-6dc8eaa910da","inBundle":false}],"outputName":"android-001","packages":{"android":{"packageName":"com.ikun","orientation":{"portrait":false,"upsideDown":false,"landscapeRight":true,"landscapeLeft":true},"apiLevel":"android-33","appABIs":["arm64-v8a","x86_64","x86","armeabi-v7a"],"useDebugKeystore":true,"keystorePath":"","keystorePassword":"","keystoreAlias":"","keystoreAliasPassword":"","appBundle":false,"androidInstant":false,"remoteUrl":"","sdkPath":"","ndkPath":"","renderBackEnd":{"vulkan":false,"gles3":true,"gles2":true},"swappy":false},"cocos-service":{"configID":"6a2275","services":[]},"native":{"polyfills":{"asyncFunctions":true},"encrypted":false,"xxteaKey":"f1pm521QFKFbSlFu","compressZip":false,"makeAfterBuild":true,"JobSystem":"none"}}}
+2022-8-14 22:49-debug: Process: heapTotal 205.91MB heapUsed 198.37MB rss 242.79MB
+2022-8-14 22:49-debug: // ---- cocos-service:(onBeforeBuild) success ----
+2022-8-14 22:49-debug: cocos-service:(onBeforeBuild)3%
+2022-8-14 22:49-debug: Query all assets info in project
+2022-8-14 22:49-debug: init custom config: keepNodeUuid: false, useCache: true
+2022-8-14 22:49-debug: BuildAssetLibrary query-assets with assets 292
+2022-8-14 22:49-debug: BuildAssetLibrary initialized with asset 393!
+2022-8-14 22:49-debug:   Number of other assets: 381
+2022-8-14 22:49-debug:   Number of all scripts: 2
+2022-8-14 22:49-debug: native:(onAfterInit) start...3%
+2022-8-14 22:49-debug: // ---- native:(onAfterInit) ----
+2022-8-14 22:49-debug: Process: heapTotal 206.15MB heapUsed 199.01MB rss 243.99MB
+2022-8-14 22:49-debug:   Number of all scenes: 1
+2022-8-14 22:49-debug: Native engine root:D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\resources\3d\engine\native
+2022-8-14 22:49-debug: // ---- native:(onAfterInit) success ----
+2022-8-14 22:49-debug: native:(onAfterInit)5%
+2022-8-14 22:49-debug: // ---- android:(onAfterInit) ----
+2022-8-14 22:49-debug: android:(onAfterInit) start...5%
+2022-8-14 22:49-debug: Process: heapTotal 228.91MB heapUsed 206.23MB rss 261.87MB
+2022-8-14 22:49-debug: // ---- android:(onAfterInit) success ----
+2022-8-14 22:49-debug: android:(onAfterInit)8%
+2022-8-14 22:49-log: // ---- 加载刷新项目脚本 ----
+2022-8-14 22:49-debug: Process: heapTotal 228.91MB heapUsed 206.29MB rss 261.81MB
+2022-8-14 22:49-debug: reload all scripts.
+2022-8-14 22:49-debug: 加载刷新项目脚本 start8%
+2022-8-14 22:49-debug: Incremental keys: 
+2022-8-14 22:49-debug: Set detail map pack:///resolution-detail-map.json: {}
+2022-8-14 22:49-debug: Unregister main
+2022-8-14 22:49-debug: Invalidating 'pack:///chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js'
+2022-8-14 22:49-debug: Invalidating 'pack:///chunks/06/06905a76530cf57ee019d9d8bcfb507c2d037fd3.js'
+2022-8-14 22:49-debug: Invalidating 'pack:///chunks/4f/4f172bf473fd1c2af22dc077d043f55539f0c2e9.js'
+2022-8-14 22:49-debug: [[Executor]] Module "pack:///chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js" loaded.
+2022-8-14 22:49-debug: [[Executor]] Module "pack:///chunks/06/06905a76530cf57ee019d9d8bcfb507c2d037fd3.js" loaded.
+2022-8-14 22:49-debug: [[Executor]] Module "pack:///chunks/4f/4f172bf473fd1c2af22dc077d043f55539f0c2e9.js" loaded.
+2022-8-14 22:49-debug: [[Executor]] Register main
+2022-8-14 22:49-debug: [[Executor]] Module "pack:///chunks/99/99c1cd29ada4c3423abb3a1d68345ba8bcc0aaa9.js" loaded.
+2022-8-14 22:49-debug: 加载刷新项目脚本 √9%
+2022-8-14 22:49-debug: Invalidating 'pack:///chunks/99/99c1cd29ada4c3423abb3a1d68345ba8bcc0aaa9.js'
+2022-8-14 22:49-debug: [[Executor]] Module "pack:///chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js" loaded.
+2022-8-14 22:49-debug: Process: heapTotal 228.91MB heapUsed 205.42MB rss 262.15MB
+2022-8-14 22:49-debug: 查询 Asset Bundle start9%
+2022-8-14 22:49-log: // ---- 查询 Asset Bundle ----
+2022-8-14 22:49-debug: 查询 Asset Bundle √10%
+2022-8-14 22:49-debug: 查询使用的资源以及资源包配置 start10%
+2022-8-14 22:49-log: // ---- 查询使用的资源以及资源包配置 ----
+2022-8-14 22:49-debug: Process: heapTotal 228.91MB heapUsed 205.47MB rss 262.16MB
+2022-8-14 22:49-debug: Query preload assets from cc.config.json: 
+2022-8-14 22:49-debug: Number of scenes: 1
+2022-8-14 22:49-debug: Number of assets: 45
+2022-8-14 22:49-debug: Number of asset bundle: 2
+2022-8-14 22:49-debug: 查询使用的资源以及资源包配置 √11%
+2022-8-14 22:49-debug: 整理脚本分组与脚本数据 start11%
+2022-8-14 22:49-debug: Process: heapTotal 232.91MB heapUsed 205.91MB rss 262.83MB
+2022-8-14 22:49-debug: 整理脚本分组与脚本数据 √13%
+2022-8-14 22:49-log: // ---- 整理脚本分组与脚本数据 ----
+2022-8-14 22:49-debug: sort script group...
+2022-8-14 22:49-debug: 整理纹理压缩任务 start13%
+2022-8-14 22:49-debug: Process: heapTotal 232.91MB heapUsed 205.93MB rss 262.83MB
+2022-8-14 22:49-log: // ---- 整理纹理压缩任务 ----
+2022-8-14 22:49-debug: Number of image-compress task: 0
+2022-8-14 22:49-debug: 整理纹理压缩任务 √14%
+2022-8-14 22:49-debug: builder.tasks.sort_json start14%
+2022-8-14 22:49-log: // ---- builder.tasks.sort_json ----
+2022-8-14 22:49-debug: builder.tasks.sort_json 字段未在编辑器多语言内定义
+2022-8-14 22:49-debug: Process: heapTotal 232.91MB heapUsed 206.08MB rss 262.89MB
+2022-8-14 22:49-debug: Number of json group: 5
+2022-8-14 22:49-debug: builder.tasks.sort_json √15%
+2022-8-14 22:49-debug: Process: heapTotal 232.91MB heapUsed 206.13MB rss 262.89MB
+2022-8-14 22:49-debug: 整理合并压缩 Texture2D 的 JSON 数据 √16%
+2022-8-14 22:49-debug: 整理合并压缩 Texture2D 的 JSON 数据 start15%
+2022-8-14 22:49-log: // ---- 整理合并压缩 Texture2D 的 JSON 数据 ----
+2022-8-14 22:49-debug: Process: heapTotal 232.91MB heapUsed 206.15MB rss 262.91MB
+2022-8-14 22:49-debug:  start16%
+2022-8-14 22:49-debug:  √18%
+2022-8-14 22:49-debug: native:(onBeforeBuildAssets) start...18%
+2022-8-14 22:49-debug: // ---- native:(onBeforeBuildAssets) ----
+2022-8-14 22:49-debug: Process: heapTotal 232.91MB heapUsed 206.18MB rss 262.91MB
+2022-8-14 22:49-debug: native:(onBeforeBuildAssets)20%
+2022-8-14 22:49-debug: // ---- native:(onBeforeBuildAssets) success ----
+2022-8-14 22:49-debug:  start20%
+2022-8-14 22:49-log: // ----  ----
+2022-8-14 22:49-debug: Process: heapTotal 232.91MB heapUsed 206.21MB rss 262.92MB
+2022-8-14 22:49-log: // ----  ----
+2022-8-14 22:49-debug: Caught exception during build core-js: WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
+ - configuration.entry should be an non-empty array.
+   -> A non-empty array of non-empty strings
+This may indicates the core-js polyfill is not necessary. See https://github.com/zloirock/core-js/issues/822
+2022-8-14 22:49-debug: 打包脚本20%
+2022-8-14 22:49-debug: Process: heapTotal 240.91MB heapUsed 208.41MB rss 268.33MB
+2022-8-14 22:49-debug: Copy externalScripts success!
+2022-8-14 22:49-debug: 打包脚本√20%
+2022-8-14 22:49-debug: 构建引擎20%
+2022-8-14 22:49-debug: Process: heapTotal 247.51MB heapUsed 227.43MB rss 290.42MB
+2022-8-14 22:49-debug: Use cache engine: {link(C:\Users\XIAOKA~1\AppData\Local\Temp\CocosCreator\3.5.2\builder\engine\75ce5d9a6b64316fa728d49744429957)}
+2022-8-14 22:49-debug: {"debug":false,"sourceMaps":true,"includeModules":["2d","animation","audio","base","dragon-bones","gfx-webgl","gfx-webgl2","intersection-2d","marionette","particle-2d","physics-2d-box2d","profiler","skeletal-animation","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.5.2","platform":"NATIVE","md5Map":[],"engineName":"src/cocos-js","useCache":true,"targets":"chrome 80","entry":"D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine"}
+2022-8-14 22:49-debug: 构建引擎√20%
+2022-8-14 22:49-debug:  √27%
+2022-8-14 22:49-debug: 构建自动图集 start27%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 201.31MB rss 257.22MB
+2022-8-14 22:49-debug: builder.tasks.build_img 字段未在编辑器多语言内定义
+2022-8-14 22:49-log: // ---- 构建自动图集 ----
+2022-8-14 22:49-debug: builder.tasks.build_img start33%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 201.34MB rss 257.26MB
+2022-8-14 22:49-debug: 构建自动图集 √33%
+2022-8-14 22:49-log: // ---- builder.tasks.build_img ----
+2022-8-14 22:49-debug: 将资源拷贝到指定位置 start40%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 201.35MB rss 257.28MB
+2022-8-14 22:49-log: // ---- 将资源拷贝到指定位置 ----
+2022-8-14 22:49-debug: builder.tasks.build_img √40%
+2022-8-14 22:49-debug: Asset Bundle(main) handle assets: 29
+2022-8-14 22:49-debug: Asset Bundle(assetsResours) handle assets: 34
+2022-8-14 22:49-debug: builder.tasks.build_json 字段未在编辑器多语言内定义
+2022-8-14 22:49-log: // ---- builder.tasks.build_json ----
+2022-8-14 22:49-debug: 将资源拷贝到指定位置 √47%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 200.85MB rss 257.92MB
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_2.mp3)})
+2022-8-14 22:49-debug: builder.tasks.build_json start47%
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_4.mp3)})
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/kunkun.png)})
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_6.mp3)})
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/ikunbutton.png)})
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/biankuang.png)})
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_1.mp3)})
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/duihua.png)})
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_5.mp3)})
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_3.mp3)})
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/downgg.png)})
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/ikunbg.png)})
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/topbackground.png)})
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/bianhuan.png)})
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/beij.png)})
+2022-8-14 22:49-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/json/text.json)})
+2022-8-14 22:49-debug: builder.tasks.build_json √53%
+2022-8-14 22:49-debug: 压缩 Zip Bundle start53%
+2022-8-14 22:49-log: // ---- 压缩 Zip Bundle ----
+2022-8-14 22:49-debug: native:(onAfterBuildAssets) start...60%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 201.16MB rss 260.01MB
+2022-8-14 22:49-debug: // ---- native:(onAfterBuildAssets) ----
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 201.19MB rss 260.02MB
+2022-8-14 22:49-debug: 压缩 Zip Bundle √60%
+2022-8-14 22:49-log: [plugin New]: running ...
+2022-8-14 22:49-log: update settings.properties
+2022-8-14 22:49-log: update gradle.properties
+2022-8-14 22:49-log: AndroidAPI level 33
+2022-8-14 22:49-debug: generateCMakeConfig, {"CC_USE_GLES3":"set(CC_USE_GLES3 ON)","CC_USE_GLES2":"set(CC_USE_GLES2 ON)","USE_SERVER_MODE":"set(USE_SERVER_MODE OFF)","NET_MODE":"set(NET_MODE 0)","XXTEAKEY":"","CC_ENABLE_SWAPPY":"set(CC_ENABLE_SWAPPY OFF)","APP_NAME":"set(APP_NAME iKunGame)","COCOS_X_PATH":"set(COCOS_X_PATH \"D:/CocosDashboard/resources/.editors/Creator/3.5.2/resources/resources/3d/engine/native\")","USE_JOB_SYSTEM_TASKFLOW":"set(USE_JOB_SYSTEM_TASKFLOW OFF)","USE_JOB_SYSTEM_TBB":"set(USE_JOB_SYSTEM_TBB OFF)","CC_USE_VULKAN":"set(CC_USE_VULKAN OFF)","USE_PHYSICS_PHYSX":"set(USE_PHYSICS_PHYSX OFF)","USE_AUDIO":"set(USE_AUDIO ON)","USE_VIDEO":"set(USE_VIDEO ON)","USE_WEBVIEW":"set(USE_WEBVIEW ON)","USE_SPINE":"set(USE_SPINE ON)","USE_DRAGONBONES":"set(USE_DRAGONBONES ON)"}
+2022-8-14 22:49-log:   [plugin New]: done!
+2022-8-14 22:49-debug: // ---- native:(onAfterBuildAssets) success ----
+2022-8-14 22:49-debug: 给所有的资源加上 MD5 后缀 start63%
+2022-8-14 22:49-log: android instant not configured
+2022-8-14 22:49-debug: native:(onAfterBuildAssets)63%
+2022-8-14 22:49-log: // ---- 给所有的资源加上 MD5 后缀 ----
+2022-8-14 22:49-debug: 初始化 settings.json 与 config.json start73%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 201.91MB rss 260.05MB
+2022-8-14 22:49-log: // ---- 初始化 settings.json 与 config.json ----
+2022-8-14 22:49-debug: 初始化 settings.json 与 config.json √73%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 201.93MB rss 260.06MB
+2022-8-14 22:49-debug: tasks.settings.macro 字段未在编辑器多语言内定义
+2022-8-14 22:49-debug: tasks.settings.macro start73%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 201.95MB rss 260.07MB
+2022-8-14 22:49-log: // ---- tasks.settings.macro ----
+2022-8-14 22:49-debug: 给所有的资源加上 MD5 后缀 √73%
+2022-8-14 22:49-debug: tasks.settings.macro √74%
+2022-8-14 22:49-debug: 使用缓存 settings.json start74%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 202.03MB rss 260.07MB
+2022-8-14 22:49-log: // ---- 使用缓存 settings.json ----
+2022-8-14 22:49-debug: 使用缓存 settings.json √74%
+2022-8-14 22:49-debug: custom joint texture layouts start74%
+2022-8-14 22:49-log: // ---- custom joint texture layouts ----
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 202.10MB rss 260.05MB
+2022-8-14 22:49-debug: custom joint texture layouts √75%
+2022-8-14 22:49-debug: custom joint physics start75%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 202.13MB rss 260.05MB
+2022-8-14 22:49-log: // ---- custom joint physics ----
+2022-8-14 22:49-debug: 填充脚本数据到 settings.json start75%
+2022-8-14 22:49-log: // ---- 填充脚本数据到 settings.json ----
+2022-8-14 22:49-debug: custom joint physics √75%
+2022-8-14 22:49-debug: 填充脚本数据到 settings.json √76%
+2022-8-14 22:49-debug: 填充场景数据到 settings.json start76%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 202.15MB rss 260.05MB
+2022-8-14 22:49-debug: 填充场景数据到 settings.json √76%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 202.17MB rss 260.06MB
+2022-8-14 22:49-log: // ---- 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2022-8-14 22:49-log: // ---- 填充场景数据到 settings.json ----
+2022-8-14 22:49-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start76%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 202.19MB rss 260.06MB
+2022-8-14 22:49-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start77%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 202.22MB rss 260.07MB
+2022-8-14 22:49-log: // ---- 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2022-8-14 22:49-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 √77%
+2022-8-14 22:49-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json √77%
+2022-8-14 22:49-debug: // ---- cocos-service:(onBeforeCompressSettings) ----
+2022-8-14 22:49-debug: options.md5Cache is false.
+2022-8-14 22:49-debug: cocos-service:(onBeforeCompressSettings) start...77%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 202.26MB rss 260.07MB
+2022-8-14 22:49-debug: // ---- cocos-service:(onBeforeCompressSettings) success ----
+2022-8-14 22:49-debug: cocos-service:(onBeforeCompressSettings)80%
+2022-8-14 22:49-log: // ----  ----
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 202.39MB rss 260.08MB
+2022-8-14 22:49-debug:  start80%
+2022-8-14 22:49-debug:  √81%
+2022-8-14 22:49-debug: 压缩 config.json 与 settings.json start81%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 202.42MB rss 260.09MB
+2022-8-14 22:49-log: // ---- 压缩 config.json 与 settings.json ----
+2022-8-14 22:49-debug: 压缩 config.json 与 settings.json √82%
+2022-8-14 22:49-log: // ---- 保存 config.json ----
+2022-8-14 22:49-debug: 保存 config.json start82%
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 202.51MB rss 260.09MB
+2022-8-14 22:49-debug: 保存 settings.json start83%
+2022-8-14 22:49-debug: 保存 config.json √83%
+2022-8-14 22:49-log: // ---- 保存 settings.json ----
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 202.54MB rss 260.11MB
+2022-8-14 22:49-debug: 保存 settings.json √84%
+2022-8-14 22:49-debug: 整理静态模板文件 start84%
+2022-8-14 22:49-log: // ---- 整理静态模板文件 ----
+2022-8-14 22:49-debug: Process: heapTotal 231.29MB heapUsed 202.66MB rss 260.11MB
+2022-8-14 22:49-debug: 整理静态模板文件 √85%
+2022-8-14 22:49-debug: cocos-service:(onAfterCompressSettings) start...85%
+2022-8-14 22:49-debug: // ---- cocos-service:(onAfterCompressSettings) ----
+2022-8-14 22:49-debug: Process: heapTotal 235.29MB heapUsed 202.87MB rss 260.77MB
+2022-8-14 22:49-debug: // ---- cocos-service:(onAfterCompressSettings) success ----
+2022-8-14 22:49-debug: cocos-service:(onAfterCompressSettings)87%
+2022-8-14 22:49-debug: native:(onAfterBuild) start...87%
+2022-8-14 22:49-debug: Process: heapTotal 235.29MB heapUsed 203.41MB rss 260.62MB
+2022-8-14 22:49-debug: // ---- native:(onAfterBuild) ----
+2022-8-14 22:49-log: [plugin Generate]: running ...
+2022-8-14 22:49-log:   [plugin Generate]: done!
+2022-8-14 22:49-log: generate android
+2022-8-14 22:49-debug: native:(onAfterBuild)90%
+2022-8-14 22:49-debug: cocos-service:(onAfterBuild) start...90%
+2022-8-14 22:49-debug: // ---- cocos-service:(onAfterBuild) ----
+2022-8-14 22:49-debug: // ---- native:(onAfterBuild) success ----
+2022-8-14 22:49-debug: Process: heapTotal 235.29MB heapUsed 203.59MB rss 260.79MB
+2022-8-14 22:49-debug: // ---- cocos-service:(onAfterBuild) success ----
+2022-8-14 22:49-debug: cocos-service:(onAfterBuild)93%
+2022-8-14 22:49-debug: Use build file cocos.compile.config.json in root(D:\gameWork\dabao\android-001)
+2022-8-14 22:49-debug: init options success95%
+2022-8-14 22:49-debug: init options success
+2022-8-14 22:49-debug: native:(make) start...97%
+2022-8-14 22:49-debug: native:(make) start...
+2022-8-14 22:49-debug: // ---- native:(make) ----
+2022-8-14 22:49-log: [plugin Generate]: running ...
+2022-8-14 22:49-log: generate android
+2022-8-14 22:49-log:   [plugin Generate]: done!
+2022-8-14 22:49-log: [plugin Compile]: running ...
+2022-8-14 22:49-log: [runCmd]: D:\gameWork\dabao\android-001\proj\gradlew.bat iKunGame:assembleRelease
+2022-8-14 22:49-log: [runCmd D:\gameWork\dabao\android-001\proj\gradlew.bat] > Task :iKunGame:preBuild UP-TO-DATE
+
+2022-8-14 22:49-log: [runCmd D:\gameWork\dabao\android-001\proj\gradlew.bat] > Task :iKunGame:extractProguardFiles
+> Task :iKunGame:preReleaseBuild
+> Task :libcocos:preBuild UP-TO-DATE
+> Task :libcocos:preReleaseBuild UP-TO-DATE
+> Task :libcocos:compileReleaseAidl NO-SOURCE
+> Task :libservice:preBuild UP-TO-DATE
+> Task :libservice:preReleaseBuild UP-TO-DATE
+> Task :libservice:compileReleaseAidl NO-SOURCE
+
+2022-8-14 22:49-log: [runCmd D:\gameWork\dabao\android-001\proj\gradlew.bat] > Task :iKunGame:compileReleaseAidl NO-SOURCE
+> Task :libcocos:packageReleaseRenderscript NO-SOURCE
+> Task :libservice:packageReleaseRenderscript NO-SOURCE
+
+2022-8-14 22:49-log: [runCmd D:\gameWork\dabao\android-001\proj\gradlew.bat] > Task :iKunGame:compileReleaseRenderscript NO-SOURCE
+> Task :iKunGame:generateReleaseBuildConfig
+> Task :iKunGame:javaPreCompileRelease
+> Task :libcocos:writeReleaseAarMetadata
+
+2022-8-14 22:49-log: [runCmd D:\gameWork\dabao\android-001\proj\gradlew.bat] > Task :iKunGame:generateReleaseResValues
+> Task :iKunGame:generateReleaseResources
+> Task :libservice:writeReleaseAarMetadata
+> Task :libcocos:compileReleaseRenderscript NO-SOURCE
+
+2022-8-14 22:49-log: [runCmd D:\gameWork\dabao\android-001\proj\gradlew.bat] > Task :libcocos:generateReleaseResValues
+> Task :libcocos:generateReleaseResources
+> Task :libcocos:packageReleaseResources
+> Task :libservice:compileReleaseRenderscript NO-SOURCE
+> Task :libservice:generateReleaseResValues
+
+2022-8-14 22:49-log: [runCmd D:\gameWork\dabao\android-001\proj\gradlew.bat] > Task :libservice:generateReleaseResources
+
+2022-8-14 22:49-log: [runCmd D:\gameWork\dabao\android-001\proj\gradlew.bat] > Task :libservice:packageReleaseResources
+> Task :iKunGame:createReleaseCompatibleScreenManifests
+> Task :iKunGame:extractDeepLinksRelease
+> Task :libcocos:extractDeepLinksRelease
+> Task :libservice:extractDeepLinksRelease
+
+2022-8-14 22:49-log: [runCmd D:\gameWork\dabao\android-001\proj\gradlew.bat] > Task :libcocos:processReleaseManifest
+> Task :libservice:processReleaseManifest
+2022-8-14 22:49-log: [runCmd D:\gameWork\dabao\android-001\proj\gradlew.bat] 
+
+2022-8-14 22:49-log: [runCmd D:\gameWork\dabao\android-001\proj\gradlew.bat] > Task :libcocos:parseReleaseLocalResources
+> Task :iKunGame:processReleaseMainManifest
+
+2022-8-14 22:49-log: [runCmd D:\gameWork\dabao\android-001\proj\gradlew.bat] > Task :iKunGame:processReleaseManifest
+> Task :libcocos:generateReleaseBuildConfig
+> Task :libservice:parseReleaseLocalResources
+> Task :libcocos:javaPreCompileRelease
+> Task :libservice:generateReleaseBuildConfig
+
+2022-8-14 22:49-log: [runCmd D:\gameWork\dabao\android-001\proj\gradlew.bat] > Task :libcocos:generateReleaseRFile
+
+2022-8-14 22:49-log: [runCmd D:\gameWork\dabao\android-001\proj\gradlew.bat] > Task :libservice:javaPreCompileRelease
+> Task :iKunGame:mergeReleaseResources
+

@@ -1,0 +1,341 @@
+2022-8-14 21:34-debug: =================================== Build Task (web-desktop) Start ================================
+2022-8-14 21:34-debug: Build with Cocos Creator 3.5.2
+2022-8-14 21:34-debug: // ---- cocos-service:(onBeforeBuild) ----
+2022-8-14 21:34-debug: cocos-service:(onBeforeBuild) start...0%
+2022-8-14 21:34-debug: Process: heapTotal 206.29MB heapUsed 198.77MB rss 470.91MB
+2022-8-14 21:34-debug: Start build task, options:{"name":"iKunGame","platform":"web-desktop","buildPath":"project://../../gameWork/dabao","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":true,"replaceSplashScreen":false,"mainBundleCompressionType":"none","mainBundleIsRemote":false,"mergeStartScene":false,"experimentalEraseModules":true,"compressTexture":true,"packAutoAtlas":true,"startScene":"2c84e0b0-7e15-493b-bbb9-6dc8eaa910da","scenes":[{"url":"db://assets/scences/scene.scene","uuid":"2c84e0b0-7e15-493b-bbb9-6dc8eaa910da","inBundle":false}],"outputName":"web-desktop","packages":{"web-desktop":{"resolution":{"designWidth":1280,"designHeight":960},"polyfills":{"asyncFunctions":true}},"cocos-service":{"configID":"6a2275","services":[]}}}
+2022-8-14 21:34-debug: // ---- cocos-service:(onBeforeBuild) success ----
+2022-8-14 21:34-debug: cocos-service:(onBeforeBuild)3%
+2022-8-14 21:34-debug: Query all assets info in project
+2022-8-14 21:34-debug: init custom config: keepNodeUuid: false, useCache: true
+2022-8-14 21:34-debug: BuildAssetLibrary query-assets with assets 292
+2022-8-14 21:34-debug:   Number of all scenes: 1
+2022-8-14 21:34-debug: BuildAssetLibrary initialized with asset 393!
+2022-8-14 21:34-debug: web-desktop:(onAfterInit) start...3%
+2022-8-14 21:34-debug:   Number of other assets: 381
+2022-8-14 21:34-debug: // ---- web-desktop:(onAfterInit) ----
+2022-8-14 21:34-debug: Process: heapTotal 207.03MB heapUsed 199.47MB rss 472.41MB
+2022-8-14 21:34-debug: web-desktop:(onAfterInit)5%
+2022-8-14 21:34-debug: // ---- web-desktop:(onAfterInit) success ----
+2022-8-14 21:34-log: // ---- 加载刷新项目脚本 ----
+2022-8-14 21:34-debug: Process: heapTotal 207.03MB heapUsed 199.50MB rss 472.55MB
+2022-8-14 21:34-debug: 加载刷新项目脚本 start5%
+2022-8-14 21:34-debug:   Number of all scripts: 2
+2022-8-14 21:34-debug: reload all scripts.
+2022-8-14 21:34-debug: Incremental keys: 
+2022-8-14 21:34-debug: Set detail map pack:///resolution-detail-map.json: {}
+2022-8-14 21:34-debug: Invalidating 'pack:///chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js'
+2022-8-14 21:34-debug: Invalidating 'pack:///chunks/4f/4f172bf473fd1c2af22dc077d043f55539f0c2e9.js'
+2022-8-14 21:34-debug: Invalidating 'pack:///chunks/06/06905a76530cf57ee019d9d8bcfb507c2d037fd3.js'
+2022-8-14 21:34-debug: [[Executor]] Module "pack:///chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js" loaded.
+2022-8-14 21:34-debug: Invalidating 'pack:///chunks/99/99c1cd29ada4c3423abb3a1d68345ba8bcc0aaa9.js'
+2022-8-14 21:34-debug: [[Executor]] Module "pack:///chunks/06/06905a76530cf57ee019d9d8bcfb507c2d037fd3.js" loaded.
+2022-8-14 21:34-debug: [[Executor]] Register main
+2022-8-14 21:34-debug: [[Executor]] Module "pack:///chunks/99/99c1cd29ada4c3423abb3a1d68345ba8bcc0aaa9.js" loaded.
+2022-8-14 21:34-debug: [[Executor]] Module "pack:///chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js" loaded.
+2022-8-14 21:34-debug: 加载刷新项目脚本 √6%
+2022-8-14 21:34-debug: [[Executor]] Module "pack:///chunks/4f/4f172bf473fd1c2af22dc077d043f55539f0c2e9.js" loaded.
+2022-8-14 21:34-log: // ---- 查询 Asset Bundle ----
+2022-8-14 21:34-debug: Process: heapTotal 207.03MB heapUsed 199.56MB rss 472.00MB
+2022-8-14 21:34-debug: Unregister main
+2022-8-14 21:34-debug: 查询 Asset Bundle start6%
+2022-8-14 21:34-debug: 查询 Asset Bundle √8%
+2022-8-14 21:34-debug: 查询使用的资源以及资源包配置 start8%
+2022-8-14 21:34-log: // ---- 查询使用的资源以及资源包配置 ----
+2022-8-14 21:34-debug: Process: heapTotal 207.03MB heapUsed 199.61MB rss 472.06MB
+2022-8-14 21:34-debug: Query preload assets from cc.config.json: 
+2022-8-14 21:34-debug: Number of scenes: 1
+2022-8-14 21:34-debug: Number of assets: 45
+2022-8-14 21:34-debug: Number of asset bundle: 2
+2022-8-14 21:34-debug: 查询使用的资源以及资源包配置 √9%
+2022-8-14 21:34-debug: Process: heapTotal 207.78MB heapUsed 200.23MB rss 473.42MB
+2022-8-14 21:34-debug: sort script group...
+2022-8-14 21:34-log: // ---- 整理脚本分组与脚本数据 ----
+2022-8-14 21:34-debug: 整理纹理压缩任务 start10%
+2022-8-14 21:34-debug: 整理脚本分组与脚本数据 √10%
+2022-8-14 21:34-debug: Process: heapTotal 207.78MB heapUsed 200.25MB rss 472.72MB
+2022-8-14 21:34-log: // ---- 整理纹理压缩任务 ----
+2022-8-14 21:34-debug: 整理脚本分组与脚本数据 start9%
+2022-8-14 21:34-debug: Number of image-compress task: 0
+2022-8-14 21:34-debug: 整理纹理压缩任务 √11%
+2022-8-14 21:34-debug: builder.tasks.sort_json 字段未在编辑器多语言内定义
+2022-8-14 21:34-debug: Process: heapTotal 207.78MB heapUsed 200.38MB rss 472.87MB
+2022-8-14 21:34-debug: Number of json group: 5
+2022-8-14 21:34-debug: builder.tasks.sort_json start11%
+2022-8-14 21:34-log: // ---- builder.tasks.sort_json ----
+2022-8-14 21:34-debug: 整理合并压缩 Texture2D 的 JSON 数据 start12%
+2022-8-14 21:34-log: // ---- 整理合并压缩 Texture2D 的 JSON 数据 ----
+2022-8-14 21:34-debug: 整理合并压缩 Texture2D 的 JSON 数据 √14%
+2022-8-14 21:34-debug: Process: heapTotal 207.78MB heapUsed 200.43MB rss 472.93MB
+2022-8-14 21:34-debug:  start14%
+2022-8-14 21:34-debug: builder.tasks.sort_json √12%
+2022-8-14 21:34-debug: Process: heapTotal 207.78MB heapUsed 200.46MB rss 472.96MB
+2022-8-14 21:34-log: // ----  ----
+2022-8-14 21:34-debug: // ---- web-desktop:(onBeforeBuildAssets) ----
+2022-8-14 21:34-debug: web-desktop:(onBeforeBuildAssets) start...15%
+2022-8-14 21:34-debug:  √15%
+2022-8-14 21:34-debug: Process: heapTotal 207.78MB heapUsed 199.77MB rss 472.30MB
+2022-8-14 21:34-debug: // ---- web-desktop:(onBeforeBuildAssets) success ----
+2022-8-14 21:34-debug:  start18%
+2022-8-14 21:34-debug: web-desktop:(onBeforeBuildAssets)18%
+2022-8-14 21:34-debug: Process: heapTotal 207.78MB heapUsed 199.80MB rss 472.33MB
+2022-8-14 21:34-log: // ----  ----
+2022-8-14 21:34-debug: 打包脚本18%
+2022-8-14 21:34-debug: Process: heapTotal 227.48MB heapUsed 211.90MB rss 493.44MB
+2022-8-14 21:34-debug: Copy externalScripts success!
+2022-8-14 21:34-debug: 打包脚本√18%
+2022-8-14 21:34-debug: Process: heapTotal 243.48MB heapUsed 214.75MB rss 496.56MB
+2022-8-14 21:34-debug: 构建引擎18%
+2022-8-14 21:34-debug: Engine cache ({link(C:\Users\XIAOKA~1\AppData\Local\Temp\CocosCreator\3.5.2\builder\engine\90e072b5545009dadd4cdf26ce1d04f9)}) does not exist.
+2022-8-14 21:34-debug: {"incremental":"C:\\Users\\XIAOKA~1\\AppData\\Local\\Temp\\CocosCreator\\3.5.2\\builder\\engine\\90e072b5545009dadd4cdf26ce1d04f9.watch-files.json","engine":"D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine","out":"C:\\Users\\XIAOKA~1\\AppData\\Local\\Temp\\CocosCreator\\3.5.2\\builder\\engine\\90e072b5545009dadd4cdf26ce1d04f9","moduleFormat":2,"compress":true,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","buildTimeConstants":{"HTML5":true,"WECHAT":false,"ALIPAY":false,"BAIDU":false,"XIAOMI":false,"BYTEDANCE":false,"OPPO":false,"VIVO":false,"HUAWEI":false,"NATIVE":false,"COCOSPLAY":false,"LINKSURE":false,"QTT":false,"OPEN_HARMONY":false,"EDITOR":false,"PREVIEW":false,"BUILD":true,"TEST":false,"DEBUG":false,"UI_GPU_DRIVEN":false,"DEV":false,"RUNTIME_BASED":false,"MINIGAME":false,"JSB":false,"SUPPORT_JIT":true},"loose":true,"features":["2d","animation","audio","base","dragon-bones","gfx-webgl","gfx-webgl2","intersection-2d","marionette","particle-2d","physics-2d-box2d","profiler","skeletal-animation","spine","tiled-map","tween","ui","video","webview"],"platform":"HTML5","mode":"BUILD"}
+2022-8-14 21:34-debug: Build-engine options: {
+  "incremental": "C:\\Users\\XIAOKA~1\\AppData\\Local\\Temp\\CocosCreator\\3.5.2\\builder\\engine\\90e072b5545009dadd4cdf26ce1d04f9.watch-files.json",
+  "engine": "D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine",
+  "out": "C:\\Users\\XIAOKA~1\\AppData\\Local\\Temp\\CocosCreator\\3.5.2\\builder\\engine\\90e072b5545009dadd4cdf26ce1d04f9",
+  "moduleFormat": 2,
+  "compress": true,
+  "ammoJsWasm": "fallback",
+  "assetURLFormat": "runtime-resolved",
+  "buildTimeConstants": {
+    "HTML5": true,
+    "WECHAT": false,
+    "ALIPAY": false,
+    "BAIDU": false,
+    "XIAOMI": false,
+    "BYTEDANCE": false,
+    "OPPO": false,
+    "VIVO": false,
+    "HUAWEI": false,
+    "NATIVE": false,
+    "COCOSPLAY": false,
+    "LINKSURE": false,
+    "QTT": false,
+    "OPEN_HARMONY": false,
+    "EDITOR": false,
+    "PREVIEW": false,
+    "BUILD": true,
+    "TEST": false,
+    "DEBUG": false,
+    "UI_GPU_DRIVEN": false,
+    "DEV": false,
+    "RUNTIME_BASED": false,
+    "MINIGAME": false,
+    "JSB": false,
+    "SUPPORT_JIT": true
+  },
+  "loose": true,
+  "features": [
+    "2d",
+    "animation",
+    "audio",
+    "base",
+    "dragon-bones",
+    "gfx-webgl",
+    "gfx-webgl2",
+    "intersection-2d",
+    "marionette",
+    "particle-2d",
+    "physics-2d-box2d",
+    "profiler",
+    "skeletal-animation",
+    "spine",
+    "tiled-map",
+    "tween",
+    "ui",
+    "video",
+    "webview"
+  ],
+  "platform": "HTML5",
+  "mode": "BUILD",
+  "sourceMap": true
+}
+2022-8-14 21:34-debug: Module source "internal-constants":
+export const EXPORT_TO_GLOBAL = true;
+export const MARIONETTE = true;
+export const HTML5 = true;
+export const WECHAT = false;
+export const ALIPAY = false;
+export const BAIDU = false;
+export const XIAOMI = false;
+export const BYTEDANCE = false;
+export const OPPO = false;
+export const VIVO = false;
+export const HUAWEI = false;
+export const NATIVE = false;
+export const COCOSPLAY = false;
+export const LINKSURE = false;
+export const QTT = false;
+export const OPEN_HARMONY = false;
+export const EDITOR = false;
+export const PREVIEW = false;
+export const BUILD = true;
+export const TEST = false;
+export const DEBUG = false;
+export const UI_GPU_DRIVEN = false;
+export const DEV = false;
+export const RUNTIME_BASED = false;
+export const MINIGAME = false;
+export const JSB = false;
+export const SUPPORT_JIT = true;
+2022-8-14 21:34-debug: Module source "cc":
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\2d.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\animation.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\audio.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\base.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\dragon-bones.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\gfx-webgl.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\gfx-webgl2.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\intersection-2d.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\particle-2d.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\physics-2d-box2d.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\physics-2d-framework.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\profiler.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\skeletal-animation.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\spine.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\tiled-map.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\tween.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\ui.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\video.ts';
+export * from 'D:\\CocosDashboard\\resources\\.editors\\Creator\\3.5.2\\resources\\resources\\3d\\engine\\exports\\webview.ts';
+2022-8-14 21:34-debug: Redirect module pal/system-info to D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\resources\3d\engine\pal\system-info\web\system-info.ts
+2022-8-14 21:34-debug: Redirect module pal/input to D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\resources\3d\engine\pal\input\web\index.ts
+2022-8-14 21:34-debug: Redirect module pal/audio to D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\resources\3d\engine\pal\audio\web\player.ts
+2022-8-14 21:34-debug: Redirect module pal/screen-adapter to D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\resources\3d\engine\pal\screen-adapter\web\screen-adapter.ts
+2022-8-14 21:34-debug: Redirect module pal/minigame to D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\resources\3d\engine\pal\minigame\non-minigame.ts
+2022-8-14 21:34-debug: Rollup warning 'THIS_IS_UNDEFINED' is omitted for D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\resources\3d\engine\cocos\spine\lib\spine-core.js
+2022-8-14 21:34-debug: Rollup warning 'THIS_IS_UNDEFINED' is omitted for D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\resources\3d\engine\cocos\spine\lib\spine-core.js
+2022-8-14 21:34-debug: Rollup warning 'THIS_IS_UNDEFINED' is omitted for D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\resources\3d\engine\node_modules\@cocos\dragonbones-js\out\dragonBones.js
+2022-8-14 21:34-debug: Rollup warning 'THIS_IS_UNDEFINED' is omitted for D:\CocosDashboard\resources\.editors\Creator\3.5.2\resources\resources\3d\engine\node_modules\@cocos\dragonbones-js\out\dragonBones.js
+2022-8-14 21:34-debug: ==== Performance ====
+2022-8-14 21:34-debug: {"# BUILD":[33581.6859,282077852,505401580],"## generate module graph":[31896.0782,279236484,502562500],"- plugin 0 (@cocos/build-engine|code-asset) - resolveId":[4.668599999999916,287488,501454120],"- plugin 1 (@cocos/build-engine|load-asset) - resolveId":[5.310699999999944,800220,501456772],"- plugin 1 (@cocos/build-engine|load-asset) - resolveId (async)":[36.877500000000204,-12674636,501457368],"- plugin 2 (@cocos/build-engine|module-overrides) - resolveId":[6.299399999999995,326724,501458936],"- plugin 3 (virtual) - resolveId":[23.11520000000008,-405708,501466312],"load modules":[231016.65770000004,2073165960,497292620],"- plugin 0 (@cocos/build-engine|code-asset) - load":[7.431400000000009,669244,496097696],"- plugin 0 (@cocos/build-engine|code-asset) - load (async)":[1.103799999999999,163120,496097980],"- plugin 1 (@cocos/build-engine|load-asset) - load":[1.208800000000002,175528,496098536],"- plugin 1 (@cocos/build-engine|load-asset) - load (async)":[0.8885999999999953,161076,496098820],"- plugin 2 (@cocos/build-engine|module-overrides) - load":[5.104099999999995,292308,496099360],"- plugin 3 (virtual) - load":[0.9449999999999977,57136,496099752],"- plugin 6 (json) - transform":[3.9872000000000076,-873276,497298120],"- plugin 7 (commonjs) - transform":[521.9480000000001,10814748,497301224],"- plugin 8 (babel) - transform":[279.7998000000002,16414852,497336832],"generate ast":[1938.6506000000004,-93670648,500775504],"analyse ast":[1084.3015000000003,36749196,501442456],"- plugin 4 (ts-paths) - resolveId":[4.097299999999874,295688,501467880],"- plugin 5 (node-resolve) - resolveId":[51.66030000000016,-2092272,501481392],"- plugin 5 (node-resolve) - resolveId (async)":[65544.26990000014,951085740,523411776],"- plugin 5 (node-resolve) - load":[0.8176999999999996,56460,496100184],"- plugin 7 (commonjs) - load":[3.5342999999999956,674460,496101584],"- plugin 8 (babel) - load":[216.4611000000012,3476528,496101976],"- plugin 8 (babel) - transform (async)":[26442.375000000004,328210572,515452156],"- plugin 7 (commonjs) - resolveId":[1.9377999999999989,38724,496761828],"- plugin 8 (babel) - resolveId":[0.9454999999999997,24276,496762220],"- plugin 7 (commonjs) - resolveId (async)":[4347.0401,44322172,463672576],"- plugin 7 (commonjs) - load (async)":[1524.5122999999999,21863656,454085700],"## sort modules":[402.4311,-15307904,487255032],"## mark included statements":[1282.9521,18145048,505400468],"treeshaking pass 1":[448.4311,11845464,501836128],"treeshaking pass 2":[284.3142,-900748,500935760],"treeshaking pass 3":[145.9881,3711056,504647196],"treeshaking pass 4":[108.1306,2750260,507397836],"treeshaking pass 5":[79.6451,-290340,507107876],"treeshaking pass 6":[69.2517,-2792116,504316140],"treeshaking pass 7":[69.9422,4646600,508963120],"treeshaking pass 8":[69.1819,-3563404,505400096]}
+2022-8-14 21:34-debug: ====             ====
+2022-8-14 21:35-debug: 构建引擎√18%
+2022-8-14 21:35-debug:  √24%
+2022-8-14 21:35-debug: 构建自动图集 start24%
+2022-8-14 21:35-debug: 构建自动图集 √31%
+2022-8-14 21:35-log: // ---- 构建自动图集 ----
+2022-8-14 21:35-debug: Process: heapTotal 615.41MB heapUsed 530.78MB rss 864.45MB
+2022-8-14 21:35-debug: builder.tasks.build_img 字段未在编辑器多语言内定义
+2022-8-14 21:35-log: // ---- builder.tasks.build_img ----
+2022-8-14 21:35-debug: Process: heapTotal 615.41MB heapUsed 530.81MB rss 864.45MB
+2022-8-14 21:35-debug: 将资源拷贝到指定位置 start37%
+2022-8-14 21:35-debug: builder.tasks.build_img √37%
+2022-8-14 21:35-debug: builder.tasks.build_img start31%
+2022-8-14 21:35-debug: Process: heapTotal 615.41MB heapUsed 530.83MB rss 864.45MB
+2022-8-14 21:35-log: // ---- 将资源拷贝到指定位置 ----
+2022-8-14 21:35-debug: Asset Bundle(main) handle assets: 29
+2022-8-14 21:35-debug: Asset Bundle(assetsResours) handle assets: 34
+2022-8-14 21:35-debug: builder.tasks.build_json 字段未在编辑器多语言内定义
+2022-8-14 21:35-debug: builder.tasks.build_json start44%
+2022-8-14 21:35-debug: 将资源拷贝到指定位置 √44%
+2022-8-14 21:35-debug: Process: heapTotal 615.41MB heapUsed 531.39MB rss 864.00MB
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_2.mp3)})
+2022-8-14 21:35-log: // ---- builder.tasks.build_json ----
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_4.mp3)})
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/kunkun.png)})
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_6.mp3)})
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/ikunbutton.png)})
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/biankuang.png)})
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_1.mp3)})
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/duihua.png)})
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_5.mp3)})
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/music/jinitaimei_3.mp3)})
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/downgg.png)})
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/ikunbg.png)})
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/topbackground.png)})
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/bianhuan.png)})
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/img/beij.png)})
+2022-8-14 21:35-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/assetsResours/json/text.json)})
+2022-8-14 21:35-debug: builder.tasks.build_json √51%
+2022-8-14 21:35-debug: 压缩 Zip Bundle start51%
+2022-8-14 21:35-log: // ---- 压缩 Zip Bundle ----
+2022-8-14 21:35-debug: 给所有的资源加上 MD5 后缀 start57%
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.31MB rss 867.92MB
+2022-8-14 21:35-log: // ---- 给所有的资源加上 MD5 后缀 ----
+2022-8-14 21:35-debug: 压缩 Zip Bundle √57%
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.34MB rss 867.93MB
+2022-8-14 21:35-debug: 给所有的资源加上 MD5 后缀 √68%
+2022-8-14 21:35-debug: 初始化 settings.json 与 config.json start68%
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.36MB rss 867.93MB
+2022-8-14 21:35-log: // ---- 初始化 settings.json 与 config.json ----
+2022-8-14 21:35-debug: tasks.settings.macro 字段未在编辑器多语言内定义
+2022-8-14 21:35-debug: tasks.settings.macro start68%
+2022-8-14 21:35-debug: 初始化 settings.json 与 config.json √68%
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.39MB rss 867.93MB
+2022-8-14 21:35-log: // ---- tasks.settings.macro ----
+2022-8-14 21:35-debug: tasks.settings.macro √69%
+2022-8-14 21:35-log: // ---- 使用缓存 settings.json ----
+2022-8-14 21:35-debug: 使用缓存 settings.json start69%
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.46MB rss 867.93MB
+2022-8-14 21:35-debug: 使用缓存 settings.json √69%
+2022-8-14 21:35-debug: custom joint texture layouts start69%
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.53MB rss 867.93MB
+2022-8-14 21:35-log: // ---- custom joint texture layouts ----
+2022-8-14 21:35-debug: custom joint texture layouts √70%
+2022-8-14 21:35-debug: custom joint physics start70%
+2022-8-14 21:35-log: // ---- custom joint physics ----
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.56MB rss 867.93MB
+2022-8-14 21:35-log: // ---- 填充脚本数据到 settings.json ----
+2022-8-14 21:35-debug: custom joint physics √70%
+2022-8-14 21:35-debug: 填充脚本数据到 settings.json start70%
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.58MB rss 867.93MB
+2022-8-14 21:35-debug: 填充脚本数据到 settings.json √71%
+2022-8-14 21:35-debug: 填充场景数据到 settings.json start71%
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.60MB rss 867.93MB
+2022-8-14 21:35-debug: 填充场景数据到 settings.json √71%
+2022-8-14 21:35-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start71%
+2022-8-14 21:35-log: // ---- 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2022-8-14 21:35-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 √72%
+2022-8-14 21:35-log: // ---- 填充场景数据到 settings.json ----
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.61MB rss 867.93MB
+2022-8-14 21:35-log: // ---- 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2022-8-14 21:35-debug: options.md5Cache is false.
+2022-8-14 21:35-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start72%
+2022-8-14 21:35-debug: web-desktop:(onBeforeCompressSettings) start...72%
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.65MB rss 867.93MB
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.68MB rss 867.93MB
+2022-8-14 21:35-debug: // ---- web-desktop:(onBeforeCompressSettings) ----
+2022-8-14 21:35-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json √72%
+2022-8-14 21:35-debug: // ---- web-desktop:(onBeforeCompressSettings) success ----
+2022-8-14 21:35-debug: web-desktop:(onBeforeCompressSettings)75%
+2022-8-14 21:35-debug: cocos-service:(onBeforeCompressSettings) start...75%
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.70MB rss 867.94MB
+2022-8-14 21:35-debug: // ---- cocos-service:(onBeforeCompressSettings) ----
+2022-8-14 21:35-debug: // ---- cocos-service:(onBeforeCompressSettings) success ----
+2022-8-14 21:35-log: // ----  ----
+2022-8-14 21:35-debug: cocos-service:(onBeforeCompressSettings)77%
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.83MB rss 867.91MB
+2022-8-14 21:35-debug:  start77%
+2022-8-14 21:35-debug:  √78%
+2022-8-14 21:35-debug: 压缩 config.json 与 settings.json start78%
+2022-8-14 21:35-log: // ---- 压缩 config.json 与 settings.json ----
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.86MB rss 867.91MB
+2022-8-14 21:35-log: // ---- 保存 config.json ----
+2022-8-14 21:35-debug: 压缩 config.json 与 settings.json √79%
+2022-8-14 21:35-debug: 保存 config.json √80%
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.94MB rss 867.92MB
+2022-8-14 21:35-debug: 保存 settings.json start80%
+2022-8-14 21:35-log: // ---- 保存 settings.json ----
+2022-8-14 21:35-debug: 保存 settings.json √81%
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 532.97MB rss 867.93MB
+2022-8-14 21:35-log: // ---- 整理静态模板文件 ----
+2022-8-14 21:35-debug: 保存 config.json start79%
+2022-8-14 21:35-debug: 整理静态模板文件 start81%
+2022-8-14 21:35-debug: Process: heapTotal 618.65MB heapUsed 533.09MB rss 867.93MB
+2022-8-14 21:35-debug: // ---- cocos-service:(onAfterCompressSettings) ----
+2022-8-14 21:35-debug: 整理静态模板文件 √82%
+2022-8-14 21:35-debug: cocos-service:(onAfterCompressSettings) start...82%
+2022-8-14 21:35-debug: Process: heapTotal 622.65MB heapUsed 532.88MB rss 868.70MB
+2022-8-14 21:35-debug: // ---- cocos-service:(onAfterCompressSettings) success ----
+2022-8-14 21:35-debug: cocos-service:(onAfterCompressSettings)85%
+2022-8-14 21:35-debug: // ---- web-desktop:(onAfterBuild) ----
+2022-8-14 21:35-debug: // ---- web-desktop:(onAfterBuild) success ----
+2022-8-14 21:35-debug: Process: heapTotal 622.65MB heapUsed 533.39MB rss 868.67MB
+2022-8-14 21:35-debug: web-desktop:(onAfterBuild)87%
+2022-8-14 21:35-debug: web-desktop:(onAfterBuild) start...85%
+2022-8-14 21:35-debug: // ---- cocos-service:(onAfterBuild) ----
+2022-8-14 21:35-debug: Process: heapTotal 622.65MB heapUsed 535.38MB rss 869.41MB
+2022-8-14 21:35-debug: cocos-service:(onAfterBuild) start...87%
+2022-8-14 21:35-debug: // ---- cocos-service:(onAfterBuild) success ----
+2022-8-14 21:35-debug: cocos-service:(onAfterBuild)90%
+2022-8-14 21:35-debug: build success in 70873 ms!
