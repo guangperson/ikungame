@@ -1,0 +1,84 @@
+name: CI
+
+env:
+    NODE_OPTIONS: --max-old-space-size=6144
+    # install playwright 二进制文件 (pnpm 只运行一次安装脚本)
+    PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+#     FLEEK_API_KEY: 'vf9TZF5YB9ewdFbeiO8YrIbyZwTspRAsbSWOGUxIHzA=' # 新增加的环境变量
+
+on: [push]
+
+concurrency:
+    group: ${{ github.workflow }}-${{ github.event.number || github.sha }}
+    cancel-in-progress: true
+
+jobs:
+    build:
+        timeout-minutes: 20
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                os: [ubuntu-latest]
+                node_version: [16]
+                # include:
+                #     Active LTS + other OS
+                #     - os: macos-latest
+                #       node_version: 16
+                #     - os: windows-latest
+                #       node_version: 16
+            fail-fast: false
+
+        name: 'Build&Test: node-${{ matrix.node_version }}, ${{ matrix.os }}'
+        steps:
+            - name: Restore cache Expect
+              uses: actions/cache@v2
+              with:
+                path: ${{ runner.tool_cache }}/expect # 修改为 Expect 工具的安装路径 
+                key: ${{ runner.os }}-expect-qwewwwwaa
+                
+            - name: Checkout
+              uses: actions/checkout@v3
+              
+            - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
+              name: Install Expect
+              run: |
+                 sudo apt-get update
+                 sudo apt-get install -y expect
+              
+            - name: Print cache-hit Expectvalue
+              run: echo "Cache hit Expect:${{ steps.restore-cache.outputs.cache-hit }}"
+
+#             - name: npm test
+#               run: npm install -g @fleekhq/fleek-cli
+
+            - name: Restore cache FleeK
+              uses: actions/cache@v2
+              with:
+                path: ~/.npm # 修改为你的依赖项的缓存路径
+                key: ${{ runner.os }}-npm-qsssdas
+                
+            - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}  
+              name: Install dependencies
+              run: npm install -g @fleekhq/fleek-cli
+
+              
+            - name: Print cache-hit dependenciesvalue
+              run: echo "Cache hit dependencies:${{ steps.restore-cache.outputs.cache-hit }}"
+              
+            - name: show env
+              run: echo ${{ env.FLEEK_API_KEY }}
+            
+              
+            - name: Save cache FleeK
+              uses: actions/cache@v2
+              with:
+                path: ~/.npm # 修改为你的依赖项的缓存路径
+                key: ${{ runner.os }}-npm-qsssdas
+                
+            - name: Save cache Expect
+              uses: actions/cache@v2
+              with:
+                path: ${{ runner.tool_cache }}/expect # 修改为 Expect 工具的安装路径
+                key: ${{ runner.os }}-expect-qwewwwwaa
+                
+                
